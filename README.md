@@ -18,7 +18,6 @@ pip install -r requirements.txt
 
 ## Code Organization
 ```bash
-<<<<<<< HEAD
 ├── main.py
 ├── processing
 │   ├── __init__.py
@@ -84,81 +83,13 @@ We define three main folders: `soup`, `sscrapy`, `sselenium`, which contain all 
 
 
 **For glove.6B.50d.txt, you have to go [here](https://nlp.stanford.edu/data/glove.6B.zip) to download it and put it into `./processing/` folder.**
-=======
-├── main.py
-├── processing
-│   ├── __init__.py
-│   ├── data_pre.py
-│   ├── glove.6B.50d.txt
-│   ├── pca.py
-│   └── process.py
-├── records
-│   ├── bs_records.txt
-│   └── scrapy_records.txt
-├── requirements.txt
-├── run.sh
-├── soup
-│   ├── config.py
-│   ├── crawl.py
-│   ├── data
-│   │   ├── 2dallauthorsinfoPCA.png
-│   │   ├── 2dallinfoPCA.png
-│   │   ├── 3dallauthorsinfoPCA.png
-│   │   ├── 3dallinfoPCA.png
-│   │   ├── allauthorsinfo.csv
-│   │   └── allinfo.csv
-│   ├── main.py
-│   └── utils
-│       ├── __init__.py
-│       ├── other_utils.py
-│       └── scrape_utils.py
-├── sscrapy
-│   ├── __init__.py
-│   ├── command
-│   │   ├── __init__.py
-│   │   ├── command
-│   │   │   ├── __init__.py
-│   │   │   ├── items.py
-│   │   │   ├── middlewares.py
-│   │   │   ├── pipelines.py
-│   │   │   ├── settings.py
-│   │   │   └── spiders
-│   │   │       ├── __init__.py
-│   │   │       └── command.py
-│   │   └── scrapy.cfg
-│   ├── config.py
-│   ├── crawl.py
-│   ├── data
-│   │   ├── 2dallauthorsinfoPCA.png
-│   │   ├── 2dallinfoPCA.png
-│   │   ├── 3dallauthorsinfoPCA.png
-│   │   ├── 3dallinfoPCA.png
-│   │   ├── allauthorsinfo.csv
-│   │   └── allinfo.csv
-│   ├── main.py
-│   └── utils
-│       ├── __init__.py
-│       ├── other_utils.py
-│       └── scrape_utils.py
-└── sselenium
-    ├── config.py
-    ├── crawl.py
-    └── main.py
-```
-We define three main folders: `soup`, `sscrapy`, `sselenium`, which contain all codes corresponding to three tools: BeautifulSoup, Scrapy and Selenium respectively, however, according to project requirements, we have to name them as soup, scrapy and selenium, but it's not possible if we import off-and-shelf packages called scrapy and selenium, so we must rename our folders. In each folder, all files look almost the same, they all have `data` and `utils` folders, in the `data` folder, results are stored and `utils` includes core scraping classes and functions related to the specific tool, moreoever, `config.py` is used to set parameters globally, `crawl.py` is used to call scraping functions in `utils`, finally, `main.py` is the code entrance for the  corresponding tool. In `sscrapy`, there is a folder `command`, which is a scrapy project being used to start crawling by typing `scrapy ...` in command line. **For glove.6B.50d.txt, you have to go [here](https://nlp.stanford.edu/data/glove.6B.zip) to download it and put it into `./processing/` folder.**
-
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 `processing` folder contains all operations about data analyses, `records` stores running time records for three tools, moreover, `main.py` in the mainstream folder is the entrance of all the project, `requirements.txt` describes all needed external packages to run our code, `run.sh` is running script, one can also run code by typing `./run.sh` in command line with default parameters. More details can be found in our `description.pdf` file.
 
 ## Usages
 
 ### Parameters
 
-<<<<<<< HEAD
 In our code there is some parameters set for three tools.
-=======
-In our code there is some parameters set for all three tools.
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
 ```
 limit = 5                   
@@ -172,12 +103,8 @@ sssubject = ['Computer Vision and Pattern Recognition', 'Machine Learning', 'App
 ```
 
 `limit` is used to limit the number of scraped papers for each subsubsubject, if `page_limit` is set to be True(default), then `limit` is useless, however, the number of **all** scraped papers will be more or less 100 according to project requirements, we define 100 pages as 100 papers. When `scrape_each_author` set to be True, then after crawling all papers of all subsubsubjects specified by users, our code will start crawling each paper's first author's written papers according to papers we scraped, in this setting, default scraped pages will be as 100/150 depending on which tool we use, and the number of scraped results will also be almost 100 when `page_limit` is set to be True. Sometimes, you may only have interest in analysing data, then you have to set `crawl` to be False and `analyse` to be True, but it is necessary to have pre-scraped results stored. However, if you want to test how our program works, just running our code with default parameters is enough. 
-<<<<<<< HEAD
 Moreover, you can also define your own favoriate `subject`, `subsubject` and `subsubsubject` in Python list format, but using our default values can be adequate to test program. However, in Selenium, we don't scrape for each author's papers.
 
-=======
-Moreover, you can also define your own favoriate `subject`, `subsubject` and `subsubsubject` in Python list format, but using our default values can be adequate to test program.
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
 ### Usages for Running
 
@@ -238,13 +165,8 @@ And scraped results are
 ![em](./README/output2sc2.png)
 
 Note that results scraped are not in line with BS because BS runs code sequentially, Scrapy starts multiple crawlers concurrently. 
-<<<<<<< HEAD
 Next, if `scrape_each_author` in `soup` and `sscrapy` is True, then for each author, we ought to scrape his/her old papers. The results are marked with green color if obtained paper really belongs to that author, since multiple papers are searched if names of authors are similar, we have to filter them.
 However, the mechanism is different for BS and Scrapy, we first scrape all authors' links, then scrape each of them one by one, in Scrapy, we utilize Depth-First Search(DFS), when getting each paper for each subsubsubject, then we continue to scrape its first author's papers. But BS and Scrapy will yield similar results shown below(**Note we don't do this step in selenium.**):
-=======
-Next, if `scrape_each_author` is True, then for each author, we ought to scrape his/her old papers. The results are marked with green color if obtained paper really belongs to that author, since multiple papers are searched if names of authors are similar, we have to filter them.
-However, the mechanism is different for BS and Scrapy, we first scrape all authors' links, then scrape each of them one by one, in Scrapy, we utilize Depth-First Search(DFS), when getting each paper for each subsubsubject, then we continue to scrape its first author's papers. But BS and Scrapy will yield similar results shown below:
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
 ![em](./README/output3.png)
 
@@ -253,7 +175,6 @@ Finally, running time of each of scrapers will be recorded as stated above, and 
 ![em](./README/output41.png)
 ![em](./README/output42.png)
 
-<<<<<<< HEAD
 As we see preprocessing each paper is printed, and final running time is obtained as well. If `scrape_each_author` in `soup` and `sscrapy` is True, then we will see data analyses process be running twice, one for papers of all subsubsubjects and the other is for all papers for each of authors.
 
 #### BS and Selenium running in `soup`/`sselenium` folder
@@ -263,9 +184,6 @@ In order to run files in `soup` or in `sselenium` respectively, enter the corres
 ```
 python main.py
 ```
-=======
-As we see preprocessing each paper is printed, and final running time is obtained as well. If `scrape_each_author` is True, then we will see data analyses process be running twice, one for papers of all subsubsubjects and the other is for all papers for each of authors.
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
 #### Scrapying running in the command line
 
@@ -290,11 +208,7 @@ According to project requirements, we must can run scrapy using `scrapy ...` com
     </tr>
     <tr>
         <td rowspan="1">Selenium</td>
-<<<<<<< HEAD
         <td>77.21±2.41</td>
-=======
-        <td>±</td>
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
     </tr>
 </table>
 
@@ -310,9 +224,5 @@ According to project requirements, we must can run scrapy using `scrapy ...` com
 In this project, we use three tools we grasped during lecture: BeautifulSoup, Scrapy and Selenium to scrape famous academic papers hosting platform: *ArXiv* to obtain each paper's information and each author's papers, finally we use scraped data to make visualization via simple NLP and PCA techniques and understand what's going on in the data. In the implementations, we've done quite a lot work to make every scrape correct.
 
 
-<<<<<<< HEAD
 <center>***Veni，vidi，vici --Caesar***</center>
-=======
-***<center>Veni，vidi，vici --Caesar</center>***
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
