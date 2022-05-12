@@ -1,0 +1,26 @@
+
+********************2022-05-12 21:30:31.126409********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Methodology']
+page_limit...True
+limit...30
+analyse...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sselenium.config.Config object at 0x7f831a590cd0>>
+set_kwargs...<bound method Config.set_kwargs of <sselenium.config.Config object at 0x7f831a590cd0>>
+**************************************************
+Elapsed time : 48.45126008987427s.
+
+********************2022-05-12 21:33:23.551905********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Methodology']
+page_limit...True
+limit...120
+analyse...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sselenium.config.Config object at 0x7fb613960310>>
+set_kwargs...<bound method Config.set_kwargs of <sselenium.config.Config object at 0x7fb613960310>>
+**************************************************
+Elapsed time : 77.21319222450256s.

@@ -1,0 +1,1235 @@
+<<<<<<< HEAD
+
+********************2022-04-27 10:17:19.323943********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7f7b36b6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7f7b36b6a5e0>>
+**************************************************
+Elapsed time : 50.249993085861206s.
+
+********************2022-04-27 10:19:38.563162********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7f960ec6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7f960ec6a5e0>>
+**************************************************
+Elapsed time : 49.66709613800049s.
+
+********************2022-04-27 10:39:54.316526********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fa73646a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fa73646a5e0>>
+**************************************************
+Elapsed time : 6.11189079284668s.
+
+********************2022-05-01 10:40:44.299558********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fefe7a6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fefe7a6a5e0>>
+**************************************************
+Elapsed time : 41.801509141922s.
+
+********************2022-05-01 10:45:28.548400********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7f9fcc1625e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7f9fcc1625e0>>
+**************************************************
+Elapsed time : 57.05839681625366s.
+
+********************2022-05-01 10:59:06.733263********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7f837ca6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7f837ca6a5e0>>
+**************************************************
+Elapsed time : 48.75697612762451s.
+
+********************2022-05-01 11:00:06.589376********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7f93fea6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7f93fea6a5e0>>
+**************************************************
+Elapsed time : 21.327768802642822s.
+
+********************2022-05-01 11:01:33.792549********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7f8c3246a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7f8c3246a5e0>>
+**************************************************
+Elapsed time : 36.66605067253113s.
+
+********************2022-05-01 11:03:29.004263********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fce0f1625e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fce0f1625e0>>
+**************************************************
+Elapsed time : 19.482024908065796s.
+
+********************2022-05-01 11:11:07.805351********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fa5d926a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fa5d926a5e0>>
+**************************************************
+Elapsed time : 30.270684957504272s.
+
+********************2022-05-01 11:14:48.995278********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7faa9c9625e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7faa9c9625e0>>
+**************************************************
+Elapsed time : 21.205804109573364s.
+
+********************2022-05-01 11:16:03.990841********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fbf70a6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fbf70a6a5e0>>
+**************************************************
+Elapsed time : 26.280658960342407s.
+
+********************2022-05-01 11:18:22.898914********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fdc1c9625e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fdc1c9625e0>>
+**************************************************
+Elapsed time : 54.40364122390747s.
+
+********************2022-05-01 11:47:32.090076********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...10
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fdc291625e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fdc291625e0>>
+**************************************************
+Elapsed time : 23.78370189666748s.
+
+********************2022-05-01 11:48:57.138738********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...10
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fe839c6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fe839c6a5e0>>
+**************************************************
+Elapsed time : 23.41798496246338s.
+
+********************2022-05-01 11:59:33.254657********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...10
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fe0a726a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fe0a726a5e0>>
+**************************************************
+Elapsed time : 32.44130992889404s.
+
+********************2022-05-01 12:01:18.310587********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...10
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fa89526a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fa89526a5e0>>
+**************************************************
+Elapsed time : 18.69513201713562s.
+
+********************2022-05-01 12:03:20.850993********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...10
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fbde79625e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fbde79625e0>>
+**************************************************
+Elapsed time : 18.923830032348633s.
+
+********************2022-05-01 12:09:16.622676********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...10
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <Scrapy.config.Config object at 0x7fbc1c46a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <Scrapy.config.Config object at 0x7fbc1c46a5e0>>
+**************************************************
+Elapsed time : 91.82158708572388s.
+
+********************2022-05-01 15:55:42.902656********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...15
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fd03b46a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fd03b46a5e0>>
+**************************************************
+Elapsed time : 28.178426027297974s.
+
+********************2022-05-01 15:59:43.720378********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...25
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fc25d46a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fc25d46a5e0>>
+**************************************************
+Elapsed time : 37.573071002960205s.
+
+********************2022-05-01 16:07:03.581708********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7b34b6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7b34b6a5e0>>
+**************************************************
+Elapsed time : 35.41842174530029s.
+
+********************2022-05-01 16:13:03.573794********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fdefbb6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fdefbb6a5e0>>
+**************************************************
+Elapsed time : 37.6524338722229s.
+
+********************2022-05-01 16:18:45.930471********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7ff616a6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7ff616a6a5e0>>
+**************************************************
+Elapsed time : 37.34275817871094s.
+
+********************2022-05-01 16:25:08.843946********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7855a6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7855a6a5e0>>
+**************************************************
+Elapsed time : 35.32972693443298s.
+
+********************2022-05-01 16:27:48.453248********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fbcd4a6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fbcd4a6a5e0>>
+**************************************************
+Elapsed time : 23.843089818954468s.
+
+********************2022-05-01 16:28:23.628158********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fd62146a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fd62146a5e0>>
+**************************************************
+Elapsed time : 37.62855291366577s.
+
+********************2022-05-01 16:29:39.953098********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fa36a1625e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fa36a1625e0>>
+**************************************************
+Elapsed time : 25.38108205795288s.
+
+********************2022-05-01 16:32:59.580745********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fc72236a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fc72236a5e0>>
+**************************************************
+Elapsed time : 16.9322030544281s.
+
+********************2022-05-01 16:33:41.450324********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fc95046a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fc95046a5e0>>
+**************************************************
+Elapsed time : 16.887135982513428s.
+
+********************2022-05-01 16:34:21.055740********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fd13546a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fd13546a5e0>>
+**************************************************
+Elapsed time : 37.54552888870239s.
+
+********************2022-05-01 16:35:08.375902********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fa949b6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fa949b6a5e0>>
+**************************************************
+Elapsed time : 36.00222635269165s.
+
+********************2022-05-01 16:43:37.011809********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fa7c526a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fa7c526a5e0>>
+**************************************************
+Elapsed time : 25.22194194793701s.
+
+********************2022-05-01 16:44:26.650549********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fca3626a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fca3626a5e0>>
+**************************************************
+Elapsed time : 63.20414686203003s.
+
+********************2022-05-01 16:50:27.844273********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7ff12c46a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7ff12c46a610>>
+**************************************************
+Elapsed time : 45.9434871673584s.
+
+********************2022-05-01 17:01:10.452439********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fcf1b46a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fcf1b46a610>>
+**************************************************
+Elapsed time : 48.25584888458252s.
+
+********************2022-05-01 17:23:15.492579********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f8c5f26a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f8c5f26a610>>
+**************************************************
+Elapsed time : 46.49075698852539s.
+
+********************2022-05-01 17:35:47.257514********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fe373a6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fe373a6a610>>
+**************************************************
+Elapsed time : 15.652722120285034s.
+
+********************2022-05-01 17:40:02.278155********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fbc7836a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fbc7836a610>>
+**************************************************
+Elapsed time : 48.758044958114624s.
+
+********************2022-05-01 17:42:03.168824********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f9998c6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f9998c6a610>>
+**************************************************
+Elapsed time : 50.677480936050415s.
+
+********************2022-05-01 17:44:54.364891********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7ff1a226a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7ff1a226a610>>
+**************************************************
+Elapsed time : 49.75037384033203s.
+
+********************2022-05-01 17:50:12.621779********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f949826a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f949826a610>>
+**************************************************
+Elapsed time : 47.31283092498779s.
+
+********************2022-05-01 17:51:50.699887********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fabbd36a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fabbd36a610>>
+**************************************************
+Elapsed time : 48.09738206863403s.
+
+********************2022-05-01 17:59:39.171891********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fea8446a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fea8446a610>>
+**************************************************
+Elapsed time : 143.3133099079132s.
+
+********************2022-05-01 18:03:34.694245********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f83ee46a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f83ee46a610>>
+**************************************************
+Elapsed time : 58.92014169692993s.
+
+********************2022-05-01 18:09:06.267973********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fc12eb6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fc12eb6a610>>
+**************************************************
+Elapsed time : 43.35248517990112s.
+
+********************2022-05-01 18:11:00.817045********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f8a26162610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f8a26162610>>
+**************************************************
+Elapsed time : 46.24007987976074s.
+
+********************2022-05-01 18:26:58.651200********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...31
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fbcbda6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fbcbda6a610>>
+**************************************************
+Elapsed time : 48.803897857666016s.
+
+********************2022-05-01 18:28:36.884720********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...31
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f839446a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f839446a610>>
+**************************************************
+Elapsed time : 47.16217398643494s.
+
+********************2022-05-01 18:30:16.599643********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f8aa6962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f8aa6962610>>
+**************************************************
+Elapsed time : 35.56057906150818s.
+
+********************2022-05-01 19:02:07.258221********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fb629962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fb629962610>>
+**************************************************
+Elapsed time : 36.46475005149841s.
+
+********************2022-05-01 19:03:04.930780********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...34
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7eecc6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7eecc6a610>>
+**************************************************
+Elapsed time : 55.49165105819702s.
+
+********************2022-05-01 19:04:59.799487********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...34
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f9e94a6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f9e94a6a610>>
+**************************************************
+Elapsed time : 45.95574975013733s.
+
+********************2022-05-01 19:06:04.880930********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fdace962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fdace962610>>
+**************************************************
+Elapsed time : 43.19412565231323s.
+
+********************2022-05-01 20:51:23.837566********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f839a962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f839a962610>>
+**************************************************
+Elapsed time : 29.285152912139893s.
+
+********************2022-05-01 20:52:05.064059********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f8234162610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f8234162610>>
+**************************************************
+Elapsed time : 31.122891902923584s.
+
+********************2022-05-01 21:02:19.655246********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fec91162610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fec91162610>>
+**************************************************
+Elapsed time : 27.62046504020691s.
+
+********************2022-05-01 21:23:10.621473********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7dbb962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7dbb962610>>
+**************************************************
+Elapsed time : 35.001415967941284s.
+
+********************2022-05-01 21:25:07.156348********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fb27aa6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fb27aa6a610>>
+**************************************************
+Elapsed time : 45.19007897377014s.
+
+********************2022-05-01 23:29:45.924712********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7eaa1e27c0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7eaa1e27c0>>
+**************************************************
+Elapsed time : 16.982709884643555s.
+
+********************2022-05-01 23:34:05.542194********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f8ad71e2670>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f8ad71e2670>>
+**************************************************
+Elapsed time : 19.336627960205078s.
+
+********************2022-05-01 23:35:46.811181********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fd3321f8310>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fd3321f8310>>
+**************************************************
+Elapsed time : 17.162500143051147s.
+
+********************2022-05-01 23:38:31.794244********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fe7f78c7220>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fe7f78c7220>>
+**************************************************
+Elapsed time : 42.854400873184204s.
+
+********************2022-05-01 23:42:53.568576********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fc00b2027f0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fc00b2027f0>>
+**************************************************
+Elapsed time : 44.26486372947693s.
+
+********************2022-05-01 23:44:27.000341********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fae339e35e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fae339e35e0>>
+**************************************************
+Elapsed time : 41.32434892654419s.
+
+********************2022-05-01 23:46:37.848937********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fea119e35e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fea119e35e0>>
+**************************************************
+Elapsed time : 38.73318672180176s.
+
+********************2022-05-01 23:48:02.815862********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f87168e6ca0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f87168e6ca0>>
+**************************************************
+Elapsed time : 42.377501249313354s.
+
+********************2022-05-01 23:49:31.175532********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7998202670>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7998202670>>
+**************************************************
+Elapsed time : 40.783080101013184s.
+
+********************2022-05-02 07:26:25.365918********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f923f36a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f923f36a610>>
+**************************************************
+Elapsed time : 34.73302674293518s.
+
+********************2022-05-02 07:27:43.313650********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fe678c6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fe678c6a610>>
+**************************************************
+Elapsed time : 56.61611008644104s.
+
+********************2022-05-02 07:29:34.640296********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fb959a6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fb959a6a610>>
+**************************************************
+Elapsed time : 166.03989505767822s.
+
+********************2022-05-02 07:35:31.740876********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fd77426a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fd77426a610>>
+**************************************************
+Elapsed time : 151.7391438484192s.
+
+********************2022-05-02 07:45:02.405501********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fce09962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fce09962610>>
+**************************************************
+Elapsed time : 16.979602336883545s.
+
+********************2022-05-02 08:24:52.275049********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fe03b1f8310>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fe03b1f8310>>
+**************************************************
+Elapsed time : 12.266152143478394s.
+
+********************2022-05-02 08:53:42.892094********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f7c08962610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f7c08962610>>
+**************************************************
+Elapsed time : 99.01981592178345s.
+
+********************2022-05-02 08:56:17.270810********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fb30346a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fb30346a610>>
+**************************************************
+Elapsed time : 21.98478388786316s.
+
+********************2022-05-02 09:12:45.172181********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f933346a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f933346a610>>
+**************************************************
+Elapsed time : 77.42696332931519s.
+
+********************2022-05-02 09:17:57.130571********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fecd87cc490>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fecd87cc490>>
+**************************************************
+Elapsed time : 60.47270202636719s.
+
+********************2022-05-02 09:19:32.338424********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fa06b8d3be0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fa06b8d3be0>>
+**************************************************
+Elapsed time : 38.10478615760803s.
+
+********************2022-05-02 11:45:58.858454********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f9b56a6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f9b56a6a610>>
+**************************************************
+Elapsed time : 11.987762928009033s.
+
+********************2022-05-02 11:50:41.410794********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f84bec6a610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f84bec6a610>>
+**************************************************
+Elapsed time : 68.69879412651062s.
+
+********************2022-05-02 12:16:23.524017********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...20
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fdd0d162610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fdd0d162610>>
+**************************************************
+Elapsed time : 27.74294877052307s.
+
+********************2022-05-02 12:17:08.333051********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...20
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7f8614162610>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7f8614162610>>
+**************************************************
+Elapsed time : 71.82369828224182s.
+
+********************2022-05-02 17:14:11.990224********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'Methodology']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fa508c6a5e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fa508c6a5e0>>
+**************************************************
+Elapsed time : 122.41845607757568s.
+
+********************2022-05-02 17:21:05.106280********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'Methodology']
+limit...30
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fdee51625e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fdee51625e0>>
+**************************************************
+Elapsed time : 88.75407290458679s.
+
+********************2022-05-02 18:43:40.425275********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'Methodology']
+limit...30
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fca499625e0>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fca499625e0>>
+**************************************************
+Elapsed time : 47.65841102600098s.
+
+********************2022-05-02 18:48:13.929216********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7ff6799e5970>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7ff6799e5970>>
+**************************************************
+Elapsed time : 50.597970962524414s.
+
+********************2022-05-02 18:49:57.347117********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <sscrapy.config.Config object at 0x7fc3718d7d90>>
+set_kwargs...<bound method Config.set_kwargs of <sscrapy.config.Config object at 0x7fc3718d7d90>>
+**************************************************
+Elapsed time : 104.50190472602844s.
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a65152f630d5db28a7068120435bcc7d36a3850e2176e36551198a832f3aae3f
+size 53982
+>>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8

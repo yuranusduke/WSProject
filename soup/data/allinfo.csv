@@ -1,0 +1,1132 @@
+title#authors#abstract#comment#subject#subsubject#subsubsubject
+<<<<<<< HEAD
+RISP: Rendering-Invariant State Predictor with Differentiable Simulation and Rendering for Cross-Domain Parameter Estimation#Pingchuan Ma, Tao Du, Joshua B. Tenenbaum, Wojciech Matusik, Chuang Gan#"This work considers identifying parameters characterizing a physical system's
+dynamic motion directly from a video whose rendering configurations are
+inaccessible. Existing solutions require massive training data or lack
+generalizability to unknown rendering configurations. We propose a novel
+approach that marries domain randomization and differentiable rendering
+gradients to address this problem. Our core idea is to train a
+rendering-invariant state-prediction (RISP) network that transforms image
+differences into state differences independent of rendering configurations,
+e.g., lighting, shadows, or material reflectance. To train this predictor, we
+formulate a new loss on rendering variances using gradients from differentiable
+rendering. Moreover, we present an efficient, second-order method to compute
+the gradients of this loss, allowing it to be integrated seamlessly into modern
+deep learning frameworks. We evaluate our method in rigid-body and
+deformable-body simulation environments using four tasks: state estimation,
+system identification, imitation learning, and visuomotor control. We further
+demonstrate the efficacy of our approach on a real-world example: inferring the
+state and action sequences of a quadrotor from a video of its motion sequences.
+Compared with existing methods, our approach achieves significantly lower
+reconstruction errors and has better generalizability among unknown rendering
+configurations."#ICLR Oral. Project page: this http URL#computer science#computing research repository#computer vision and pattern recognition
+HULC: 3D Human Motion Capture with Pose Manifold Sampling and Dense Contact Guidance#Soshi Shimada, Vladislav Golyanik, Patrick Pérez, Weipeng Xu, Christian Theobalt#"Marker-less monocular 3D human motion capture (MoCap) with scene interactions
+is a challenging research topic relevant for extended reality, robotics and
+virtual avatar generation. Due to the inherent depth ambiguity of monocular
+settings, 3D motions captured with existing methods often contain severe
+artefacts such as incorrect body-scene inter-penetrations, jitter and body
+floating. To tackle these issues, we propose HULC, a new approach for 3D human
+MoCap which is aware of the scene geometry. HULC estimates 3D poses and dense
+body-environment surface contacts for improved 3D localisations, as well as the
+absolute scale of the subject. Furthermore, we introduce a 3D pose trajectory
+optimisation based on a novel pose manifold sampling that resolves erroneous
+body-environment inter-penetrations. Although the proposed method requires less
+structured inputs compared to existing scene-aware monocular MoCap algorithms,
+it produces more physically-plausible poses: HULC significantly and
+consistently outperforms the existing approaches in various experiments and on
+different metrics."##computer science#computing research repository#computer vision and pattern recognition
+Revisiting Random Channel Pruning for Neural Network Compression#Yawei Li, Kamil Adamczewski, Wen Li, Shuhang Gu, Radu Timofte, Luc Van Gool#"Channel (or 3D filter) pruning serves as an effective way to accelerate the
+inference of neural networks. There has been a flurry of algorithms that try to
+solve this practical problem, each being claimed effective in some ways. Yet, a
+benchmark to compare those algorithms directly is lacking, mainly due to the
+complexity of the algorithms and some custom settings such as the particular
+network configuration or training procedure. A fair benchmark is important for
+the further development of channel pruning.
+Meanwhile, recent investigations reveal that the channel configurations
+discovered by pruning algorithms are at least as important as the pre-trained
+weights. This gives channel pruning a new role, namely searching the optimal
+channel configuration. In this paper, we try to determine the channel
+configuration of the pruned models by random search. The proposed approach
+provides a new way to compare different methods, namely how well they behave
+compared with random pruning. We show that this simple strategy works quite
+well compared with other channel pruning methods. We also show that under this
+setting, there are surprisingly no clear winners among different channel
+importance evaluation methods, which then may tilt the research efforts into
+advanced channel configuration searching methods."#Accepted to CVPR2022. Code will be released at \url{this https URL}#computer science#computing research repository#computer vision and pattern recognition
+NTIRE 2022 Challenge on Efficient Super-Resolution: Methods and Results#"Yawei Li, Kai Zhang, Radu Timofte, Luc Van Gool, Fangyuan Kong, Mingxi Li, Songwei Liu, Zongcai Du, Ding Liu, Chenhui Zhou, Jingyi Chen, Qingrui Han, Zheyuan Li, Yingqi Liu, Xiangyu Chen, Haoming Cai, Yu Qiao, Chao Dong, Long Sun, Jinshan Pan, Yi Zhu, Zhikai Zong, Xiaoxiao Liu, Zheng Hui, Tao Yang, Peiran Ren, Xuansong Xie, Xian-Sheng Hua, Yanbo Wang, Xiaozhong Ji, Chuming Lin, Donghao Luo, Ying Tai, Chengjie Wang, Zhizhong Zhang, Yuan Xie, Shen Cheng, Ziwei Luo, Lei Yu, Zhihong Wen, Qi Wu1, Youwei Li, Haoqiang Fan, Jian Sun, Shuaicheng Liu, Yuanfei Huang, Meiguang Jin, Hua Huang, Jing Liu, Xinjian Zhang, Yan Wang, Lingshun Long, Gen Li, Yuanfan Zhang, Zuowei Cao, Lei Sun, Panaetov Alexander, Yucong Wang, Minjie Cai, Li Wang, Lu Tian, Zheyuan Wang, Hongbing Ma, Jie Liu, Chao Chen, Yidong Cai, Jie Tang, Gangshan Wu, Weiran Wang, Shirui Huang, Honglei Lu, Huan Liu, Keyan Wang, Jun Chen, Shi Chen, Yuchun Miao, Zimo Huang, Lefei Zhang, Mustafa Ayazoğlu, Wei Xiong, Chengyi Xiong, Fei Wang, Hao Li, Ruimian Wen, Zhijing Yang, Wenbin Zou, Weixin Zheng, Tian Ye, Yuncheng Zhang, Xiangzhen Kong, Aditya Arora, Syed Waqas Zamir, Salman Khan, Munawar Hayat, Fahad Shahbaz Khan, Dandan Gaoand Dengwen Zhouand Qian Ning, Jingzhu Tang, Han Huang, Yufei Wang, Zhangheng Peng
+
+
+        , Haobo Li, Wenxue Guan, Shenghua Gong, Xin Li, Jun Liu, Wanjun Wang, Dengwen Zhou, Kun Zeng, Hanjiang Lin, Xinyu Chen, Jinsheng Fang
+
+
+    et al. (11 additional authors not shown)
+ You must enable JavaScript to view entire author list."#"This paper reviews the NTIRE 2022 challenge on efficient single image
+super-resolution with focus on the proposed solutions and results. The task of
+the challenge was to super-resolve an input image with a magnification factor
+of $\times$4 based on pairs of low and corresponding high resolution images.
+The aim was to design a network for single image super-resolution that achieved
+improvement of efficiency measured according to several metrics including
+runtime, parameters, FLOPs, activations, and memory consumption while at least
+maintaining the PSNR of 29.00dB on DIV2K validation set. IMDN is set as the
+baseline for efficiency measurement. The challenge had 3 tracks including the
+main track (runtime), sub-track one (model complexity), and sub-track two
+(overall performance). In the main track, the practical runtime performance of
+the submissions was evaluated. The rank of the teams were determined directly
+by the absolute value of the average runtime on the validation set and test
+set. In sub-track one, the number of parameters and FLOPs were considered. And
+the individual rankings of the two metrics were summed up to determine a final
+ranking in this track. In sub-track two, all of the five metrics mentioned in
+the description of the challenge including runtime, parameter count, FLOPs,
+activations, and memory consumption were considered. Similar to sub-track one,
+the rankings of five metrics were summed up to determine a final ranking. The
+challenge had 303 registered participants, and 43 teams made valid submissions.
+They gauge the state-of-the-art in efficient single image super-resolution."#Validation code of the baseline model is available at this https URL. Validation of all submitted models is available at this https URL#computer science#computing research repository#computer vision and pattern recognition
+RepSR: Training Efficient VGG-style Super-Resolution Networks with Structural Re-Parameterization and Batch Normalization#Xintao Wang, Chao Dong, Ying Shan#"This paper explores training efficient VGG-style super-resolution (SR)
+networks with the structural re-parameterization technique. The general
+pipeline of re-parameterization is to train networks with multi-branch topology
+first, and then merge them into standard 3x3 convolutions for efficient
+inference. In this work, we revisit those primary designs and investigate
+essential components for re-parameterizing SR networks. First of all, we find
+that batch normalization (BN) is important to bring training non-linearity and
+improve the final performance. However, BN is typically ignored in SR, as it
+usually degrades the performance and introduces unpleasant artifacts. We
+carefully analyze the cause of BN issue and then propose a straightforward yet
+effective solution. In particular, we first train SR networks with mini-batch
+statistics as usual, and then switch to using population statistics at the
+later training period. While we have successfully re-introduced BN into SR, we
+further design a new re-parameterizable block tailored for SR, namely RepSR. It
+consists of a clean residual path and two expand-and-squeeze convolution paths
+with the modified BN. Extensive experiments demonstrate that our simple RepSR
+is capable of achieving superior performance to previous SR re-parameterization
+methods among different model sizes. In addition, our RepSR can achieve a
+better trade-off between performance and actual running time (throughput) than
+previous SR methods. Codes will be available at
+this https URL."#Technical Report. Codes will be available at this https URL#computer science#computing research repository#computer vision and pattern recognition
+Video-ReTime: Learning Temporally Varying Speediness for Time Remapping#Simon Jenni, Markus Woodson, Fabian Caba Heilbron#"We propose a method for generating a temporally remapped video that matches
+the desired target duration while maximally preserving natural video dynamics.
+Our approach trains a neural network through self-supervision to recognize and
+accurately localize temporally varying changes in the video playback speed. To
+re-time videos, we 1. use the model to infer the slowness of individual video
+frames, and 2. optimize the temporal frame sub-sampling to be consistent with
+the model's slowness predictions. We demonstrate that this model can detect
+playback speed variations more accurately while also being orders of magnitude
+more efficient than prior approaches. Furthermore, we propose an optimization
+for video re-timing that enables precise control over the target duration and
+performs more robustly on longer videos than prior methods. We evaluate the
+model quantitatively on artificially speed-up videos, through transfer to
+action recognition, and qualitatively through user studies."#Accepted at the AI for Content Creation (AICC) workshop at CVPR 2022#computer science#computing research repository#computer vision and pattern recognition
+TDT: Teaching Detectors to Track without Fully Annotated Videos#Shuzhi Yu, Guanhang Wu, Chunhui Gu, Mohammed E. Fathy#"Recently, one-stage trackers that use a joint model to predict both
+detections and appearance embeddings in one forward pass received much
+attention and achieved state-of-the-art results on the Multi-Object Tracking
+(MOT) benchmarks. However, their success depends on the availability of videos
+that are fully annotated with tracking data, which is expensive and hard to
+obtain. This can limit the model generalization. In comparison, the two-stage
+approach, which performs detection and embedding separately, is slower but
+easier to train as their data are easier to annotate. We propose to combine the
+best of the two worlds through a data distillation approach. Specifically, we
+use a teacher embedder, trained on Re-ID datasets, to generate pseudo
+appearance embedding labels for the detection datasets. Then, we use the
+augmented dataset to train a detector that is also capable of regressing these
+pseudo-embeddings in a fully-convolutional fashion. Our proposed one-stage
+solution matches the two-stage counterpart in quality but is 3 times faster.
+Even though the teacher embedder has not seen any tracking data during
+training, our proposed tracker achieves competitive performance with some
+popular trackers (e.g. JDE) trained with fully labeled tracking data."#Workshop on Learning with Limited Labelled Data for Image and Video Understanding (L3D-IVU), CVPR2022 Workshop#computer science#computing research repository#computer vision and pattern recognition
+Face Detection on Mobile: Five Implementations and Analysis#Kostiantyn Khabarlak#"In many practical cases face detection on smartphones or other highly
+portable devices is a necessity. Applications include mobile face access
+control systems, driver status tracking, emotion recognition, etc. Mobile
+devices have limited processing power and should have long-enough battery life
+even with face detection application running. Thus, striking the right balance
+between algorithm quality and complexity is crucial. In this work we adapt 5
+algorithms to mobile. These algorithms are based on handcrafted or
+neural-network-based features and include: Viola-Jones (Haar cascade), LBP,
+HOG, MTCNN, BlazeFace. We analyze inference time of these algorithms on
+different devices with different input image resolutions. We provide guidance,
+which algorithms are the best fit for mobile face access control systems and
+potentially other mobile applications. Interestingly, we note that cascaded
+algorithms perform faster on scenes without faces, while BlazeFace is slower on
+empty scenes. Exploiting this behavior might be useful in practice."##computer science#computing research repository#computer vision and pattern recognition
+Review on Panoramic Imaging and Its Applications in Scene Understanding#Shaohua Gao, Kailun Yang, Hao Shi, Kaiwei Wang, Jian Bai#"With the rapid development of high-speed communication and artificial
+intelligence technologies, human perception of real-world scenes is no longer
+limited to the use of small Field of View (FoV) and low-dimensional scene
+detection devices. Panoramic imaging emerges as the next generation of
+innovative intelligent instruments for environmental perception and
+measurement. However, while satisfying the need for large-FoV photographic
+imaging, panoramic imaging instruments are expected to have high resolution, no
+blind area, miniaturization, and multi-dimensional intelligent perception, and
+can be combined with artificial intelligence methods towards the next
+generation of intelligent instruments, enabling deeper understanding and more
+holistic perception of 360-degree real-world surrounding environments.
+Fortunately, recent advances in freeform surfaces, thin-plate optics, and
+metasurfaces provide innovative approaches to address human perception of the
+environment, offering promising ideas beyond conventional optical imaging. In
+this review, we begin with introducing the basic principles of panoramic
+imaging systems, and then describe the architectures, features, and functions
+of various panoramic imaging systems. Afterwards, we discuss in detail the
+broad application prospects and great design potential of freeform surfaces,
+thin-plate optics, and metasurfaces in panoramic imaging. We then provide a
+detailed analysis on how these techniques can help enhance the performance of
+panoramic imaging systems. We further offer a detailed analysis of applications
+of panoramic imaging in scene understanding for autonomous driving and
+robotics, spanning panoramic semantic image segmentation, panoramic depth
+estimation, panoramic visual localization, and so on. Finally, we cast a
+perspective on future potential and research directions for panoramic imaging
+instruments."#29 pages, 14 figures, 348 references#computer science#computing research repository#computer vision and pattern recognition
+NMR: Neural Manifold Representation for Autonomous Driving#Unnikrishnan R. Nair, Sarthak Sharma, Midhun S. Menon, Srikanth Vidapanakal#"Autonomous driving requires efficient reasoning about the Spatio-temporal
+nature of the semantics of the scene. Recent approaches have successfully
+amalgamated the traditional modular architecture of an autonomous driving stack
+comprising perception, prediction, and planning in an end-to-end trainable
+system. Such a system calls for a shared latent space embedding with
+interpretable intermediate trainable projected representation. One such
+successfully deployed representation is the Bird's-Eye View(BEV) representation
+of the scene in ego-frame. However, a fundamental assumption for an undistorted
+BEV is the local coplanarity of the world around the ego-vehicle. This
+assumption is highly restrictive, as roads, in general, do have gradients. The
+resulting distortions make path planning inefficient and incorrect. To overcome
+this limitation, we propose Neural Manifold Representation (NMR), a
+representation for the task of autonomous driving that learns to infer
+semantics and predict way-points on a manifold over a finite horizon, centered
+on the ego-vehicle. We do this using an iterative attention mechanism applied
+on a latent high dimensional embedding of surround monocular images and partial
+ego-vehicle state. This representation helps generate motion and behavior plans
+consistent with and cognizant of the surface geometry. We propose a sampling
+algorithm based on edge-adaptive coverage loss of BEV occupancy grid and
+associated guidance flow field to generate the surface manifold while incurring
+minimal computational overhead. We aim to test the efficacy of our approach on
+CARLA and SYNTHIA-SF."##computer science#computing research repository#computer vision and pattern recognition
+An Empirical Study Of Self-supervised Learning Approaches For Object Detection With Transformers#Gokul Karthik Kumar, Sahal Shaji Mullappilly, Abhishek Singh Gehlot#"Self-supervised learning (SSL) methods such as masked language modeling have
+shown massive performance gains by pretraining transformer models for a variety
+of natural language processing tasks. The follow-up research adapted similar
+methods like masked image modeling in vision transformer and demonstrated
+improvements in the image classification task. Such simple self-supervised
+methods are not exhaustively studied for object detection transformers (DETR,
+Deformable DETR) as their transformer encoder modules take input in the
+convolutional neural network (CNN) extracted feature space rather than the
+image space as in general vision transformers. However, the CNN feature maps
+still maintain the spatial relationship and we utilize this property to design
+self-supervised learning approaches to train the encoder of object detection
+transformers in pretraining and multi-task learning settings. We explore common
+self-supervised methods based on image reconstruction, masked image modeling
+and jigsaw. Preliminary experiments in the iSAID dataset demonstrate faster
+convergence of DETR in the initial epochs in both pretraining and multi-task
+learning settings; nonetheless, similar improvement is not observed in the case
+of multi-task learning with Deformable DETR. The code for our experiments with
+DETR and Deformable DETR are available at this https URL
+and this https URL respectively."#"Final Project for the course ""Visual Object Detection And Recognition"" (CV703) at MBZUAI"#computer science#computing research repository#computer vision and pattern recognition
+READ: Large-Scale Neural Scene Rendering for Autonomous Driving#Zhuopeng Li, Lu Li, Zeyu Ma, Ping Zhang, Junbo Chen, Jianke Zhu#"Synthesizing free-view photo-realistic images is an important task in
+multimedia. With the development of advanced driver assistance systems~(ADAS)
+and their applications in autonomous vehicles, experimenting with different
+scenarios becomes a challenge. Although the photo-realistic street scenes can
+be synthesized by image-to-image translation methods, which cannot produce
+coherent scenes due to the lack of 3D information. In this paper, a large-scale
+neural rendering method is proposed to synthesize the autonomous driving
+scene~(READ), which makes it possible to synthesize large-scale driving
+scenarios on a PC through a variety of sampling schemes. In order to represent
+driving scenarios, we propose an {\omega} rendering network to learn neural
+descriptors from sparse point clouds. Our model can not only synthesize
+realistic driving scenes but also stitch and edit driving scenes. Experiments
+show that our model performs well in large-scale driving scenarios."##computer science#computing research repository#computer vision and pattern recognition
+TextMatcher: Cross-Attentional Neural Network to Compare Image and Text#Valentina Arrigoni, Luisa Repele, Dario Marino Saccavino#"We study a novel multimodal-learning problem, which we call text matching:
+given an image containing a single-line text and a candidate text
+transcription, the goal is to assess whether the text represented in the image
+corresponds to the candidate text. We devise the first machine-learning model
+specifically designed for this problem. The proposed model, termed TextMatcher,
+compares the two inputs by applying a cross-attention mechanism over the
+embedding representations of image and text, and it is trained in an end-to-end
+fashion. We extensively evaluate the empirical performance of TextMatcher on
+the popular IAM dataset. Results attest that, compared to a baseline and
+existing models designed for related problems, TextMatcher achieves higher
+performance on a variety of configurations, while at the same time running
+faster at inference time. We also showcase TextMatcher in a real-world
+application scenario concerning the automatic processing of bank cheques."#12 pages#computer science#computing research repository#computer vision and pattern recognition
+Deep Learning and Computer Vision Techniques for Microcirculation Analysis: A Review#Maged Abdalla Helmy Mohamed Abdou, Trung Tuyen Truong, Eric Jul, Paulo Ferreira#"The analysis of microcirculation images has the potential to reveal early
+signs of life-threatening diseases like sepsis. Quantifying the capillary
+density and the capillary distribution in microcirculation images can be used
+as a biological marker to assist critically ill patients. The quantification of
+these biological markers is labor-intensive, time-consuming, and subject to
+interobserver variability. Several computer vision techniques with varying
+performance can be used to automate the analysis of these microcirculation
+images in light of the stated challenges. In this paper, we present a survey of
+over 50 research papers and present the most relevant and promising computer
+vision algorithms to automate the analysis of microcirculation images.
+Furthermore, we present a survey of the methods currently used by other
+researchers to automate the analysis of microcirculation images. This survey is
+of high clinical relevance because it acts as a guidebook of techniques for
+other researchers to develop their microcirculation analysis systems and
+algorithms."##computer science#computing research repository#computer vision and pattern recognition
+Scene Consistency Representation Learning for Video Scene Segmentation#Haoqian Wu, Keyu Chen, Yanan Luo, Ruizhi Qiao, Bo Ren, Haozhe Liu, Weicheng Xie, Linlin Shen#"A long-term video, such as a movie or TV show, is composed of various scenes,
+each of which represents a series of shots sharing the same semantic story.
+Spotting the correct scene boundary from the long-term video is a challenging
+task, since a model must understand the storyline of the video to figure out
+where a scene starts and ends. To this end, we propose an effective
+Self-Supervised Learning (SSL) framework to learn better shot representations
+from unlabeled long-term videos. More specifically, we present an SSL scheme to
+achieve scene consistency, while exploring considerable data augmentation and
+shuffling methods to boost the model generalizability. Instead of explicitly
+learning the scene boundary features as in the previous methods, we introduce a
+vanilla temporal model with less inductive bias to verify the quality of the
+shot features. Our method achieves the state-of-the-art performance on the task
+of Video Scene Segmentation. Additionally, we suggest a more fair and
+reasonable benchmark to evaluate the performance of Video Scene Segmentation
+methods. The code is made available."#Accepted to CVPR 2022#computer science#computing research repository#computer vision and pattern recognition
+Contrastive Supervised Distillation for Continual Representation Learning#Tommaso Barletti, Niccolo' Biondi, Federico Pernici, Matteo Bruni, Alberto Del Bimbo#"In this paper, we propose a novel training procedure for the continual
+representation learning problem in which a neural network model is sequentially
+learned to alleviate catastrophic forgetting in visual search tasks. Our
+method, called Contrastive Supervised Distillation (CSD), reduces feature
+forgetting while learning discriminative features. This is achieved by
+leveraging labels information in a distillation setting in which the student
+model is contrastively learned from the teacher model. Extensive experiments
+show that CSD performs favorably in mitigating catastrophic forgetting by
+outperforming current state-of-the-art methods. Our results also provide
+further evidence that feature forgetting evaluated in visual retrieval tasks is
+not as catastrophic as in classification tasks. Code at:
+this https URL."#Paper published as Oral at ICIAP21#computer science#computing research repository#computer vision and pattern recognition
+A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials#Chuqiao Li, Zhiwu Huang, Danda Pani Paudel, Yabin Wang, Mohamad Shahbazi, Xiaopeng Hong, Luc Van Gool#"There have been emerging a number of benchmarks and techniques for the
+detection of deepfakes. However, very few works study the detection of
+incrementally appearing deepfakes in the real-world scenarios. To simulate the
+wild scenes, this paper suggests a continual deepfake detection benchmark
+(CDDB) over a new collection of deepfakes from both known and unknown
+generative models. The suggested CDDB designs multiple evaluations on the
+detection over easy, hard, and long sequence of deepfake tasks, with a set of
+appropriate measures. In addition, we exploit multiple approaches to adapt
+multiclass incremental learning methods, commonly used in the continual visual
+recognition, to the continual deepfake detection problem. We evaluate several
+methods, including the adapted ones, on the proposed CDDB. Within the proposed
+benchmark, we explore some commonly known essentials of standard continual
+learning. Our study provides new insights on these essentials in the context of
+continual deepfake detection. The suggested CDDB is clearly more challenging
+than the existing benchmarks, which thus offers a suitable evaluation avenue to
+the future research. Our benchmark dataset and the source code will be made
+publicly available."##computer science#computing research repository#computer vision and pattern recognition
+RustSEG -- Automated segmentation of corrosion using deep learning#B. Burton, W.T. Nash, N. Birbilis#"The inspection of infrastructure for corrosion remains a task that is
+typically performed manually by qualified engineers or inspectors. This task of
+inspection is laborious, slow, and often requires complex access. Recently,
+deep learning based algorithms have revealed promise and performance in the
+automatic detection of corrosion. However, to date, research regarding the
+segmentation of images for automated corrosion detection has been limited, due
+to the lack of availability of per-pixel labelled data sets which are required
+for model training. Herein, a novel deep learning approach (termed RustSEG) is
+presented, that can accurately segment images for automated corrosion
+detection, without the requirement of per-pixel labelled data sets for
+training. The RustSEG method will first, using deep learning techniques,
+determine if corrosion is present in an image (i.e. a classification task), and
+then if corrosion is present, the model will examine what pixels in the
+original image contributed to that classification decision. Finally, the method
+can refine its predictions into a pixel-level segmentation mask. In ideal
+cases, the method is able to generate precise masks of corrosion in images,
+demonstrating that the automated segmentation of corrosion without per-pixel
+training data is possible, addressing a significant hurdle in automated
+infrastructure inspection."##computer science#computing research repository#computer vision and pattern recognition
+Multi-Label Logo Recognition and Retrieval based on Weighted Fusion of Neural Features#Marisa Bernabeu, Antonio Javier Gallego, Antonio Pertusa#"Logo classification is a particular case of image classification, since these
+may contain only text, images, or a combination of both. In this work, we
+propose a system for the multi-label classification and similarity search of
+logo images. The method allows obtaining the most similar logos on the basis of
+their shape, color, business sector, semantics, general characteristics, or a
+combination of such features established by the user. This is done by employing
+a set of multi-label networks specialized in certain characteristics of logos.
+The features extracted from these networks are combined to perform the
+similarity search according to the search criteria established. Since the text
+of logos is sometimes irrelevant for the classification, a preprocessing stage
+is carried out to remove it, thus improving the overall performance. The
+proposed approach is evaluated using the European Union Trademark (EUTM)
+dataset, structured with the hierarchical Vienna classification system, which
+includes a series of metadata with which to index trademarks. We also make a
+comparison between well known logo topologies and Vienna in order to help
+designers understand their correspondences. The experimentation carried out
+attained reliable performance results, both quantitatively and qualitatively,
+which outperformed the state-of-the-art results. In addition, since the
+semantics and classification of brands can often be subjective, we also
+surveyed graphic design students and professionals in order to assess the
+reliability of the proposed method."##computer science#computing research repository#computer vision and pattern recognition
+An Objective Method for Pedestrian Occlusion Level Classification#Shane Gilroy, Martin Glavin, Edward Jones, Darragh Mullins#"Pedestrian detection is among the most safety-critical features of driver
+assistance systems for autonomous vehicles. One of the most complex detection
+challenges is that of partial occlusion, where a target object is only
+partially available to the sensor due to obstruction by another foreground
+object. A number of current pedestrian detection benchmarks provide annotation
+for partial occlusion to assess algorithm performance in these scenarios,
+however each benchmark varies greatly in their definition of the occurrence and
+severity of occlusion. In addition, current occlusion level annotation methods
+contain a high degree of subjectivity by the human annotator. This can lead to
+inaccurate or inconsistent reporting of an algorithm's detection performance
+for partially occluded pedestrians, depending on which benchmark is used. This
+research presents a novel, objective method for pedestrian occlusion level
+classification for ground truth annotation. Occlusion level classification is
+achieved through the identification of visible pedestrian keypoints and through
+the use of a novel, effective method of 2D body surface area estimation.
+Experimental results demonstrate that the proposed method reflects the
+pixel-wise occlusion level of pedestrians in images and is effective for all
+forms of occlusion, including challenging edge cases such as self-occlusion,
+truncation and inter-occluding pedestrians."##computer science#computing research repository#computer vision and pattern recognition
+Recurrent Encoder-Decoder Networks for Vessel Trajectory Prediction with Uncertainty Estimation#Samuele Capobianco, Nicola Forti, Leonardo M. Millefiori, Paolo Braca, Peter Willett#"Recent deep learning methods for vessel trajectory prediction are able to
+learn complex maritime patterns from historical Automatic Identification System
+(AIS) data and accurately predict sequences of future vessel positions with a
+prediction horizon of several hours. However, in maritime surveillance
+applications, reliably quantifying the prediction uncertainty can be as
+important as obtaining high accuracy. This paper extends deep learning
+frameworks for trajectory prediction tasks by exploring how recurrent
+encoder-decoder neural networks can be tasked not only to predict but also to
+yield a corresponding prediction uncertainty via Bayesian modeling of epistemic
+and aleatoric uncertainties. We compare the prediction performance of two
+different models based on labeled or unlabeled input data to highlight how
+uncertainty quantification and accuracy can be improved by using, if available,
+additional information on the intention of the ship (e.g., its planned
+destination)."#10 pages, 6 figures#computer science#computing research repository#computer vision and pattern recognition
+AutoLC: Search Lightweight and Top-Performing Architecture for Remote Sensing Image Land-Cover Classification#Chenyu Zheng, Junjue Wang, Ailong Ma, Yanfei Zhong#"Land-cover classification has long been a hot and difficult challenge in
+remote sensing community. With massive High-resolution Remote Sensing (HRS)
+images available, manually and automatically designed Convolutional Neural
+Networks (CNNs) have already shown their great latent capacity on HRS
+land-cover classification in recent years. Especially, the former can achieve
+better performance while the latter is able to generate lightweight
+architecture. Unfortunately, they both have shortcomings. On the one hand,
+because manual CNNs are almost proposed for natural image processing, it
+becomes very redundant and inefficient to process HRS images. On the other
+hand, nascent Neural Architecture Search (NAS) techniques for dense prediction
+tasks are mainly based on encoder-decoder architecture, and just focus on the
+automatic design of the encoder, which makes it still difficult to recover the
+refined mapping when confronting complicated HRS scenes.
+To overcome their defects and tackle the HRS land-cover classification
+problems better, we propose AutoLC which combines the advantages of two
+methods. First, we devise a hierarchical search space and gain the lightweight
+encoder underlying gradient-based search strategy. Second, we meticulously
+design a lightweight but top-performing decoder that is adaptive to the
+searched encoder of itself. Finally, experimental results on the LoveDA
+land-cover dataset demonstrate that our AutoLC method outperforms the
+state-of-art manual and automatic methods with much less computational
+consumption."#Early accepted by ICPR 2022#computer science#computing research repository#computer vision and pattern recognition
+Deep Depth Completion: A Survey#Junjie Hu, Chenyu Bao, Mete Ozay, Chenyou Fan, Qing Gao, Honghai Liu, Tin Lun Lam#"Depth completion aims at predicting dense pixel-wise depth from a sparse map
+captured from a depth sensor. It plays an essential role in various
+applications such as autonomous driving, 3D reconstruction, augmented reality,
+and robot navigation. Recent successes on the task have been demonstrated and
+dominated by deep learning based solutions. In this article, for the first
+time, we provide a comprehensive literature review that helps readers better
+grasp the research trends and clearly understand the current advances. We
+investigate the related studies from the design aspects of network
+architectures, loss functions, benchmark datasets, and learning strategies with
+a proposal of a novel taxonomy that categorizes existing methods. Besides, we
+present a quantitative comparison of model performance on two widely used
+benchmark datasets, including an indoor and an outdoor dataset. Finally, we
+discuss the challenges of prior works and provide readers with some insights
+for future research directions."##computer science#computing research repository#computer vision and pattern recognition
+Arbitrary Shape Text Detection via Boundary Transformer#Shi-Xue Zhang, Xiaobin Zhu, Chun Yang, Xu-Cheng Yin#"Arbitrary shape text detection is a challenging task due to its complexity
+and variety, e.g, various scales, random rotations, and curve shapes. In this
+paper, we propose an arbitrary shape text detector with a boundary transformer,
+which can accurately and directly locate text boundaries without any
+post-processing. Our method mainly consists of a boundary proposal module and
+an iteratively optimized boundary transformer module. The boundary proposal
+module consisting of multi-layer dilated convolutions will compute important
+prior information (including classification map, distance field, and direction
+field) for generating coarse boundary proposals meanwhile guiding the
+optimization of boundary transformer. The boundary transformer module adopts an
+encoder-decoder structure, in which the encoder is constructed by multi-layer
+transformer blocks with residual connection while the decoder is a simple
+multi-layer perceptron network (MLP). Under the guidance of prior information,
+the boundary transformer module will gradually refine the coarse boundary
+proposals via boundary deformation in an iterative manner. Furthermore, we
+propose a novel boundary energy loss (BEL) which introduces an energy
+minimization constraint and an energy monotonically decreasing constraint for
+every boundary optimization step. Extensive experiments on publicly available
+and challenging datasets demonstrate the state-of-the-art performance and
+promising efficiency of our method."#13 pages, 12 this http URL is not the final version,just a preview. arXiv admin note: text overlap with arXiv:2107.12664#computer science#computing research repository#computer vision and pattern recognition
+Invisible-to-Visible: Privacy-Aware Human Segmentation using Airborne Ultrasound via Collaborative Learning Probabilistic U-Net#Risako Tanigawa, Yasunori Ishii, Kazuki Kozuka, Takayoshi Yamashita#"Color images are easy to understand visually and can acquire a great deal of
+information, such as color and texture. They are highly and widely used in
+tasks such as segmentation. On the other hand, in indoor person segmentation,
+it is necessary to collect person data considering privacy. We propose a new
+task for human segmentation from invisible information, especially airborne
+ultrasound. We first convert ultrasound waves to reflected ultrasound
+directional images (ultrasound images) to perform segmentation from invisible
+information. Although ultrasound images can roughly identify a person's
+location, the detailed shape is ambiguous. To address this problem, we propose
+a collaborative learning probabilistic U-Net that uses ultrasound and
+segmentation images simultaneously during training, closing the probabilistic
+distributions between ultrasound and segmentation images by comparing the
+parameters of the latent spaces. In inference, only ultrasound images can be
+used to obtain segmentation results. As a result of performance verification,
+the proposed method could estimate human segmentations more accurately than
+conventional probabilistic U-Net and other variational autoencoder models."#arXiv admin note: substantial text overlap with arXiv:2204.07280#computer science#computing research repository#computer vision and pattern recognition
+ReFine: Re-randomization before Fine-tuning for Cross-domain Few-shot Learning#Jaehoon Oh, Sungnyun Kim, Namgyu Ho, Jin-Hwa Kim, Hwanjun Song, Se-Young Yun#"Cross-domain few-shot learning (CD-FSL), where there are few target samples
+under extreme differences between source and target domains, has recently
+attracted huge attention. For CD-FSL, recent studies generally have developed
+transfer learning based approaches that pre-train a neural network on popular
+labeled source domain datasets and then transfer it to target domain data.
+Although the labeled datasets may provide suitable initial parameters for the
+target data, the domain difference between the source and target might hinder
+the fine-tuning on the target domain. This paper proposes a simple yet powerful
+method that re-randomizes the parameters fitted on the source domain before
+adapting to the target data. The re-randomization resets source-specific
+parameters of the source pre-trained model and thus facilitates fine-tuning on
+the target domain, improving few-shot performance."#8 pages, 3 figures, and 7 tables#computer science#computing research repository#computer vision and pattern recognition
+Tuning Parameter Selection for Penalized Estimation via R2#Julia Holter, Jonathan Stallrich#"The tuning parameter selection strategy for penalized estimation is crucial
+to identify a model that is both interpretable and predictive. However, popular
+strategies (e.g., minimizing average squared prediction error via
+cross-validation) tend to select models with more predictors than necessary.
+This paper proposes a simple, yet powerful cross-validation strategy based on
+maximizing squared correlations between the observed and predicted values,
+rather than minimizing squared error loss. The strategy can be applied to all
+penalized least-squares estimators and we show that, under certain conditions,
+the metric implicitly performs a bias adjustment. Specific attention is given
+to the lasso estimator, in which our strategy is closely related to the relaxed
+lasso estimator. We demonstrate our approach on a functional variable selection
+problem to identify optimal placement of surface electromyogram sensors to
+control a robotic hand prosthesis."##statistics#statistics#methodology
+Leveraging baseline covariates to analyze small cluster-randomized trials with a rare binary outcome#Angela Y. Zhu, Nandita Mitra, Karla Hemming, Michael O. Harhay, Fan Li#"Cluster-randomized trials (CRTs) involve randomizing entire groups of
+participants to treatment arms, but are often comprised of a limited number of
+available clusters. While covariate adjustment can account for chance
+imbalances between treatment arms and increase statistical efficiency in
+individually-randomized trials, analytical methods for covariate adjustment in
+small CRTs have received little attention to date. In this paper, we
+systematically investigate, through extensive simulations, the operating
+characteristics of propensity score weighting and multivariable regression as
+two covariate adjustment strategies for estimating the participant-average
+causal effect in small CRTs with a rare binary outcome and identify scenarios
+where each covariate adjustment strategy has a relative efficiency advantage
+over the other to make practical recommendations. Beyond efficiency
+considerations, we also examined the finite-sample performance of the sandwich
+variance estimators associated with propensity score weighting and
+multivariable regression for quantifying the uncertainty in estimating the
+participant-average treatment effect. We found that the \citet{mancl2001} type
+bias-corrected sandwich variance estimator tends to provide the closest to
+nominal coverage for both propensity score weighting and multivariable
+regression estimators, extending the existing recommendations for unadjusted
+analysis of CRTs to accommodate covariate adjustment in small CRTs with a rare
+binary outcome. To illustrate the practical consequences of these various
+adjustment approaches, we reanalyzed a recent CRT testing a sedation protocol
+in $31$ pediatric intensive care units."##statistics#statistics#methodology
+Demystifying Inferential Models: A Fiducial Perspective#Yifan Cui, Jan Hannig#"Inferential models have recently gained in popularity for valid uncertainty
+quantification. In this paper, we investigate inferential models by exploring
+relationships between inferential models, fiducial inference, and confidence
+curves. In short, we argue that from a certain point of view, inferential
+models can be viewed as fiducial distribution based confidence curves. We show
+that all probabilistic uncertainty quantification of inferential models is
+based on a collection of sets we name principled sets and principled
+assertions."##statistics#statistics#methodology
+Private Hypothesis Testing for Social Sciences#Ajinkya K Mulay, Sean Lane, Erin Hennes#"While running any experiment, we often have to consider the statistical power
+to ensure an effective study. Statistical power or power ensures that we can
+observe an effect with high probability if such a true effect exists. However,
+several studies lack the appropriate planning for determining the optimal
+sample size to ensure adequate power. Thus, careful planning ensures that the
+power remains high even under high measurement errors while keeping the type 1
+error constrained. We study the impact of differential privacy on experiments
+and theoretically analyze the change in sample size required due to the
+Gaussian mechanisms. Further, we provide an empirical method to improve the
+accuracy of private statistics with simple bootstrapping."#Under review at Theory and Practice of Differential Privacy (TPDP) 2022#statistics#statistics#methodology
+Modeling panels of extremes#Debbie J. Dupuis, Sebastian Engelke, Luca Trapin#"Extreme value applications commonly employ regression techniques to capture
+cross-sectional heterogeneity or time-variation in the data. Estimation of the
+parameters of an extreme value regression model is notoriously challenging due
+to the small number of observations that are usually available in applications.
+When repeated extreme measurements are collected on the same individuals, i.e.,
+a panel of extremes is available, pooling the observations in groups can
+improve the statistical inference. We study three data sets related to risk
+assessment in finance, climate science, and hydrology. In all three cases, the
+problem can be formulated as an extreme value panel regression model with a
+latent group structure and group-specific parameters. We propose a new
+algorithm that jointly assigns the individuals to the latent groups and
+estimates the parameters of the regression model inside each group. Our method
+efficiently recovers the underlying group structure without prior information,
+and for the three data sets it provides improved return level estimates and
+helps answer important domain-specific questions."##statistics#statistics#methodology
+Shared Frailty Methods for Complex Survival Data: A Review of Recent Advances#Malka Gorfine, David M. Zucker#"Dependent survival data arise in many contexts. One context is clustered
+survival data, where survival data are collected on clusters such as families
+or medical centers. Dependent survival data also arise when multiple survival
+times are recorded for each individual. Frailty models is one common approach
+to handle such data. In frailty models, the dependence is expressed in terms of
+a random effect, called the frailty. Frailty models have been used with both
+Cox proportional hazards model and the accelerated failure time model. This
+paper reviews recent developments in the area of frailty models in a variety of
+settings. In each setting we provide a detailed model description, assumptions,
+available estimation methods, and R packages."#22 pages, 1 figure, 2 tables#statistics#statistics#methodology
+Principal Amalgamation Analysis for Microbiome Data#Yan Li, Gen Li, Kun Chen#"In recent years microbiome studies have become increasingly prevalent and
+large-scale. Through high-throughput sequencing technologies and
+well-established analytical pipelines, relative abundance data of operational
+taxonomic units and their associated taxonomic structures are routinely
+produced. Since such data can be extremely sparse and high dimensional, there
+is often a genuine need for dimension reduction to facilitate data
+visualization and downstream statistical analysis. We propose Principal
+Amalgamation Analysis (PAA), a novel amalgamation-based and taxonomy-guided
+dimension reduction paradigm for microbiome data. Our approach aims to
+aggregate the compositions into a smaller number of principal compositions,
+guided by the available taxonomic structure, by minimizing a properly measured
+loss of information. The choice of the loss function is flexible and can be
+based on familiar diversity indices for preserving either within-sample or
+between-sample diversity in the data. To enable scalable computation, we
+develop a hierarchical PAA algorithm to trace the entire trajectory of
+successive simple amalgamations. Visualization tools including dendrogram,
+scree plot, and ordination plot are developed. The effectiveness of PAA is
+demonstrated using gut microbiome data from a preterm infant study and an HIV
+infection study."##statistics#statistics#methodology
+Data-Driven Optimal Sensor Placement for High-Dimensional System Using Annealing Machine#Tomoki Inoue, Tsubasa Ikami, Yasuhiro Egami, Hiroki Nagai, Yasuo Naganuma, Koichi Kimura, Yu Matsuda#"We propose a novel method for solving optimal sensor placement problem for
+high-dimensional system using an annealing machine. The sensor points are
+calculated as a maximum clique problem of the graph, the edge weight of which
+is determined by the proper orthogonal decomposition (POD) mode obtained from
+data based on the fact that a high-dimensional system usually has a
+low-dimensional representation. Since the maximum clique problem is equivalent
+to the independent set problem of the complement graph, the independent set
+problem is solved using Fujitsu Digital Annealer. As a demonstration of the
+proposed method, the pressure distribution induced by the Kármán vortex
+street behind a square cylinder is reconstructed based on the pressure data at
+the calculated sensor points. The pressure distribution is measured by
+pressure-sensitive paint (PSP) technique, which is an optical flow diagnose
+method. The root mean square errors (RMSEs) between the pressure measured by
+pressure transducer and the reconstructed pressures (calculated from the
+proposed method and an existing greedy method) at the same place are compared.
+As the result, the similar RMSE is achieved by the proposed method using
+approximately 1/5 number of sensor points obtained by the existing method. This
+method is of great importance as a novel approach for optimal sensor placement
+problem and a new engineering application of an annealing machine."##statistics#statistics#methodology
+Bayesian clustering of multiple zero-inflated outcomes#Beatrice Franzolini, Andrea Cremaschi, Willem van den Boom, Maria De Iorio#"Several applications involving counts present a large proportion of zeros
+(excess-of-zeros data). A popular model for such data is the Hurdle model,
+which explicitly models the probability of a zero count, while assuming a
+sampling distribution on the positive integers. We consider data from multiple
+count processes. In this context, it is of interest to study the patterns of
+counts and cluster the subjects accordingly. We introduce a novel Bayesian
+nonparametric approach to cluster multiple, possibly related, zero-inflated
+processes. We propose a joint model for zero-inflated counts, specifying a
+Hurdle model for each process with a shifted Negative Binomial sampling
+distribution. Conditionally on the model parameters, the different processes
+are assumed independent, leading to a substantial reduction in the number of
+parameters as compared to traditional multivariate approaches. The
+subject-specific probabilities of zero-inflation and the parameters of the
+sampling distribution are flexibly modelled via an enriched finite mixture with
+random number of components. This induces a two-level clustering of the
+subjects based on the zero/non-zero patterns (outer clustering) and on the
+sampling distribution (inner clustering). Posterior inference is performed
+through tailored MCMC schemes. We demonstrate the proposed approach on an
+application involving the use of the messaging service WhatsApp."##statistics#statistics#methodology
+Mechanisms for Global Differential Privacy under Bayesian Data Synthesis#Jingchen Hu, Matthew R. Williams, Terrance D. Savitsky#"This paper introduces a new method that embeds any Bayesian model used to
+generate synthetic data and converts it into a differentially private (DP)
+mechanism. We propose an alteration of the model synthesizer to utilize a
+censored likelihood that induces upper and lower bounds of [$\exp(-\epsilon /
+2), \exp(\epsilon / 2)$], where $\epsilon$ denotes the level of the DP
+guarantee. This censoring mechanism equipped with an $\epsilon-$DP guarantee
+will induce distortion into the joint parameter posterior distribution by
+flattening or shifting the distribution towards a weakly informative prior. To
+minimize the distortion in the posterior distribution induced by likelihood
+censoring, we embed a vector-weighted pseudo posterior mechanism within the
+censoring mechanism. The pseudo posterior is formulated by selectively
+downweighting each likelihood contribution proportionally to its disclosure
+risk. On its own, the pseudo posterior mechanism produces a weaker asymptotic
+differential privacy (aDP) guarantee. After embedding in the censoring
+mechanism, the DP guarantee becomes strict such that it does not rely on
+asymptotics. We demonstrate that the pseudo posterior mechanism creates
+synthetic data with the highest utility at the price of a weaker, aDP
+guarantee, while embedding the pseudo posterior mechanism in the proposed
+censoring mechanism produces synthetic data with a stronger, non-asymptotic DP
+guarantee at the cost of slightly reduced utility. The perturbed histogram
+mechanism is included for comparison."##statistics#statistics#methodology
+Random Forests for Change Point Detection#Malte Londschien, Peter Bühlmann, Solt Kovács#"We propose a novel multivariate nonparametric multiple change point detection
+method using classifiers. We construct a classifier log-likelihood ratio that
+uses class probability predictions to compare different change point
+configurations. We propose a computationally feasible search method that is
+particularly well suited for random forests, denoted by changeforest. However,
+the method can be paired with any classifier that yields class probability
+predictions, which we illustrate by also using a k-nearest neighbor classifier.
+We provide theoretical results motivating our choices. In a large simulation
+study, our proposed changeforest method achieves improved empirical performance
+compared to existing multivariate nonparametric change point detection methods.
+An efficient implementation of our method is made available for R, Python, and
+Rust users in the changeforest software package."##statistics#statistics#methodology
+Confidence Intervals for the Number of Components in Factor Analysis and PCA via Subsampling#Chetkar Jha, Ian Barnett#"Factor analysis (FA) and principal component analysis (PCA) are popular
+statistical methods for summarizing and explaining the variability in
+multivariate datasets. By default, FA and PCA assume the number of components
+or factors to be known \emph{a priori}. However, in practice the users first
+estimate the number of factors or components and then perform FA and PCA
+analyses using the point estimate. Therefore, in practice the users ignore any
+uncertainty in the point estimate of the number of factors or components. For
+datasets where the uncertainty in the point estimate is not ignorable, it is
+prudent to perform FA and PCA analyses for the range of positive integer values
+in the confidence intervals for the number of factors or components. We address
+this problem by proposing a subsampling-based data-intensive approach for
+estimating confidence intervals for the number of components in FA and PCA. We
+study the coverage probability of the proposed confidence intervals and provide
+non-asymptotic theoretical guarantees concerning the accuracy of the confidence
+intervals. As a byproduct, we derive the first-order \emph{Edgeworth expansion}
+for spiked eigenvalues of the sample covariance matrix when the data matrix is
+generated under a factor model. We also demonstrate the usefulness of our
+approach through numerical simulations and by applying our approach for
+estimating confidence intervals for the number of factors of the genotyping
+dataset of the Human Genome Diversity Project."##statistics#statistics#methodology
+Towards better reconciling randomized controlled trial and observational study findings: Efficient algorithms for building representative matched samples with enhanced external validity#Bo Zhang#"Many recent efforts center on assessing the ability of real-world evidence
+(RWE) generated from nonrandomized observational data to provide results that
+are compatible with those from randomized controlled trials (RCTs). One
+noticeable endeavor is the RCT DUPLICATE initiative (Franklin et al., 2020). To
+better reconcile findings from observational and trial data, it is desirable to
+eliminate differences between the RCT and corresponding observational study
+populations. We outline an efficient, network-flow-based statistical matching
+algorithm that designs well-matched pairs from observational data that mimic
+the covariates' distribution of a target population, e.g., the RCT study
+population or a population of scientific interest. We demonstrate the
+usefulness of the method by revisiting the inconsistency regarding a
+cardioprotective effect of the hormone replacement therapy (HRT) in the Women's
+Health Initiative (WHI) clinical trial and corresponding observational study.
+We found that the discrepancy between the trial and observational study
+persisted in a design that adjusted for study populations' cardiovascular risk
+profile, but seemed to disappear in a study design that further adjusted for
+the HRT initiation age and previous estrogen-plus-progestin use. The proposed
+method is integrated into the R package match2C."##statistics#statistics#methodology
+Bayesian Capture-Recapture Models that Facilitate Recursive Computing#Mevin B Hooten, Michael R Schwob, Devin S Johnson, Jacob S. Ivan#"Ecologists increasingly rely on Bayesian capture-recapture models to estimate
+abundance of wildlife populations. Capture-recapture models account for
+imperfect detectability in individual-level presence data. A variety of
+approaches have been used to implement such models, including integrated
+likelihood, parameter-expanded data augmentation, and combinations of those.
+Recently proposed conditional specifications have improved the stability of
+algorithms for fitting capture-recapture models. We arrive at similar
+conditional specifications of capture-recapture models by considering recursive
+implementation strategies that facilitate fitting models to large data sets.
+Our approach enjoys the same computational stability but also allows us to fit
+the desired model in stages and leverage parallel computing resources. Our
+model specification includes a component for the capture history of detected
+individuals and another component for the sample size which is random before
+observed. We demonstrate this approach using three examples including
+simulation and two data sets resulting from capture-recapture studies of
+different species."##statistics#statistics#methodology
+Hypothesis Tests with Functional Data for Surface Quality Change Detection in Surface Finishing Processes#Shilan Jin, Rui Tuo, Akash Tiwari, Satish Bukkapatnam, Chantel Aracne-Ruddle, Ariel Lighty, Haley Hamza, Yu Ding#"This work is concerned with providing a principled decision process for
+stopping or tool-changing in a surface finishing process. The decision process
+is supposed to work for products of non-flat geometry. The solution is based on
+conducting hypothesis testing on the bearing area curves from two consecutive
+stages of a surface finishing process. In each stage, the bearing area curves,
+which are in fact the nonparametric quantile curves representing the surface
+roughness, are extracted from surface profile measurements at a number of
+sampling locations on the surface of the products. The hypothesis test of these
+curves informs the decision makers whether there is a change in surface quality
+induced by the current finishing action. When such change is detected, the
+current action is deemed effective and should thus continue, while when no
+change is detected, the effectiveness of the current action is then called into
+question, signaling possibly some change in the course of action. Application
+of the hypothesis testing-based decision procedure to both spherical and flat
+surfaces demonstrates the effectiveness and benefit of the proposed method and
+confirms its geometry-agnostic nature."#33 pages, 12 figures#statistics#statistics#methodology
+Efficient and flexible estimation of natural mediation effects under intermediate confounding and monotonicity constraints#Kara E. Rudolph, Ivan Diaz#"Natural direct and indirect effects are mediational estimands that decompose
+the average treatment effect and describe how outcomes would be affected by
+contrasting levels of a treatment through changes induced in mediator values
+(in the case of the indirect effect) or not through induced changes in the
+mediator values (in the case of the direct effect). Natural direct and indirect
+effects are not generally point-identifiable in the presence of a
+treatment-induced confounder, however they may still be identified if one is
+willing to assume monotonicity between a treatment and the treatment-induced
+confounder. We argue that this assumption may be reasonable in the relatively
+common encouragement-design trial setting where intervention is randomized
+treatment assignment and the treatment-induced confounder is whether or not
+treatment was actually taken/adhered to. We develop efficiency theory for the
+natural direct and indirect effects under this monotonicity assumption, and use
+it to propose a nonparametric, multiply robust estimator. We demonstrate the
+finite sample properties of this estimator using a simulation study, and apply
+it to data from the Moving to Opportunity Study to estimate the natural direct
+and indirect effects of being randomly assigned to receive a Section 8 housing
+voucher -- the most common form of federal housing assistance -- on risk
+developing any mood or externalizing disorder among adolescent boys, possibly
+operating through various school and community characteristics."##statistics#statistics#methodology
+On a wider class of prior distributions for graphical models#Abhinav Natarajan, Willem van den Boom, Kristoforus Bryant Odang, Maria De Iorio#"Gaussian graphical models are useful tools for conditional independence
+structure inference of multivariate random variables. Unfortunately, Bayesian
+inference of latent graph structures is challenging due to exponential growth
+of $\mathcal{G}_n$, the set of all graphs in $n$ vertices. One approach that
+has been proposed to tackle this problem is to limit search to subsets of
+$\mathcal{G}_n$. In this paper, we study subsets that are vector subspaces with
+the cycle space $\mathcal{C}_n$ as main example. We propose a novel prior on
+$\mathcal{C}_n$ based on linear combinations of cycle basis elements and
+present its theoretical properties. Using this prior, we implemented a Markov
+chain Monte Carlo algorithm and show that (i) posterior edge inclusion
+estimates compared to the standard technique are comparable despite searching a
+smaller graph space and (ii) the vector space perspective enables
+straightforward MCMC algorithms."#31 pages, 6 figures#statistics#statistics#methodology
+Enhanced Change-Point Detection in Functional Means#Shuhao Jiao, Ngai-Hang Chan, Chun-Yip Yau#"A new dimension reduction methodology for change-point detection in
+functional means is developed in this paper. The major advantage and novelty of
+the proposed method is its efficiency in selecting basis functions that capture
+the change, or jump, of functional means, leading to higher detection power,
+especially when the functions cannot be sufficiently explained by a small
+number of basis functions or are contaminated by random noises. The throughly
+developed theoretical results demonstrate that, even when the change shrinks to
+zero, the proposed approach can still detect the change asymptotically almost
+surely. The numerical simulation studies justify the superiority of the
+proposed approach to the method based on functional principal components and
+the fully functional approach without dimension reduction. An application to
+annual humidity trajectories was also included to illustrate the practical
+superiority of the developed approach."##statistics#statistics#methodology
+Forecast combinations: an over 50-year review#Xiaoqian Wang, Rob J Hyndman, Feng Li, Yanfei Kang#"Forecast combinations have flourished remarkably in the forecasting community
+and, in recent years, have become part of the mainstream of forecasting
+research and activities. Combining multiple forecasts produced from the single
+(target) series is now widely used to improve accuracy through the integration
+of information gleaned from different sources, thereby mitigating the risk of
+identifying a single ""best"" forecast. Combination schemes have evolved from
+simple combination methods without estimation, to sophisticated methods
+involving time-varying weights, nonlinear combinations, correlations among
+components, and cross-learning. They include combining point forecasts, and
+combining probabilistic forecasts. This paper provides an up-to-date review of
+the extensive literature on forecast combinations, together with reference to
+available open-source software implementations. We discuss the potential and
+limitations of various methods and highlight how these ideas have developed
+over time. Some important issues concerning the utility of forecast
+combinations are also surveyed. Finally, we conclude with current research gaps
+and potential insights for future research."##statistics#statistics#methodology
+Inference of multivariate exponential Hawkesprocesses with inhibition and application toneuronal activity#Anna Bonnet (LPSM (UMR\_8001)), Miguel Martinez Herrera (LPSM (UMR\_8001)), Maxime Sangnier (LPSM (UMR\_8001))#"The Hawkes process is a multivariate past-dependent point process used to
+model the relationship of event occurrences between different phenomena.
+Although the Hawkes process was originally introduced to describe excitation
+interactions, which means that one event increases the chances of another
+occurring, there has been a growing interest in modeling the opposite effect,
+known as inhibition. In this paper, we propose a maximum likelihood approach to
+estimate the interaction functions of a multivariate Hawkes process that can
+account for both exciting and inhibiting effects. To the best of our knowledge,
+this is the first exact inference procedure designed for such a general setting
+in the frequentist framework. Our method includes a thresholding step in order
+to recover the support of interactions and therefore to infer the connectivity
+graph. A benefit of our method is to provide an explicit computation of the
+log-likelihood, which enables in addition to perform a goodness-of-fit test for
+assessing the quality of estimations. We compare our method to classical
+approaches, which were developed in the linear framework and are not
+specifically designed for handling inhibiting effects. We show that the
+proposed estimator performs better on synthetic data than alternative
+approaches. We also illustrate the application of our procedure to a neuronal
+activity dataset, which highlights the presence of both exciting and inhibiting
+effects between neurons."##statistics#statistics#methodology
+A Comparative Tutorial of Bayesian Sequential Design and Reinforcement Learning#Mauricio Tec, Yunshan Duan, Peter Müller#"Reinforcement Learning (RL) is a computational approach to reward-driven
+learning in sequential decision problems. It implements the discovery of
+optimal actions by learning from an agent interacting with an environment
+rather than from supervised data. We contrast and compare RL with traditional
+sequential design, focusing on simulation-based Bayesian sequential design
+(BSD). Recently, there has been an increasing interest in RL techniques for
+healthcare applications. We introduce two related applications as motivating
+examples. In both applications, the sequential nature of the decisions is
+restricted to sequential stopping. Rather than a comprehensive survey, the
+focus of the discussion is on solutions using standard tools for these two
+relatively simple sequential stopping problems. Both problems are inspired by
+adaptive clinical trial design. We use examples to explain the terminology and
+mathematical background that underlie each framework and map one to the other.
+The implementations and results illustrate the many similarities between RL and
+BSD. The results motivate the discussion of the potential strengths and
+limitations of each approach."#5 figures#statistics#statistics#methodology
+The saturated pairwise interaction Gibbs point process as a joint species distribution model#Ian Flint, Nick Golding, Peter Vesk, Yan Wang, Aihua Xia#"In an effort to effectively model observed patterns in the spatial
+configuration of individuals of multiple species in nature, we introduce the
+saturated pairwise interaction Gibbs point process. Its main strength lies in
+its ability to model both attraction and repulsion within and between species,
+over different scales. As such, it is particularly well-suited to the study of
+associations in complex ecosystems. Based on the existing literature, we
+provide an easy to implement fitting procedure as well as a technique to make
+inference for the model parameters. We also prove that under certain hypotheses
+the point process is locally stable, which allows us to use the well-known
+`coupling from the past' algorithm to draw samples from the model. Different
+numerical experiments show the robustness of the model. We study three
+different ecological datasets, demonstrating in each one that our model helps
+disentangle competing ecological effects on species' distribution."##statistics#statistics#methodology
+An Accelerated Failure Time Regression Model for Illness-Death Data: A Frailty Approach#Lea Kats, Malka Gorfine#"This work presents a new model and estimation procedure for the illness-death
+survival data where the hazard functions follow accelerated failure time (AFT)
+models. A shared frailty variate induces positive dependence among failure
+times of a subject for handling the unobserved dependency between the
+non-terminal and the terminal failure times given the observed covariates.
+Semi-parametric maximum likelihood estimation procedure is developed via a
+kernel smoothed-aided EM algorithm, and variances are estimated by weighted
+bootstrap. The model is presented in the context of existing frailty-based
+illness-death models, emphasizing the contribution of the current work. The
+breast cancer data of the Rotterdam tumor bank are analyzed using the proposed
+and existing illness-death models. The results are contrasted and evaluated
+based on a new graphical goodness-of-fit procedure. Simulation results and data
+analysis nicely demonstrate the practical utility of the shared frailty variate
+with the AFT regression model under the illness-death framework."##statistics#statistics#methodology
+Sequential Linear Discriminant Analysis in High Dimensions Using Individual Discriminant Functions#Seungchul Baek#"High dimensional classification has been highlighted for last two decades and
+much research has been conducted in order to circumvent challenges encountered
+in high dimensions. While existing methods have focused mainly on developing
+classification rules assuming independence of covariates or using
+regularization on the sample covariance matrix or the sample mean vector or
+among others, we propose a novel approach that employs the ""discriminatory
+power"" of each covariate, selects a set of important variables yielding the
+lowest misclassification rate empirically, and constructs the optimal linear
+classifier with selected variables. We carry out simulation studies and analyze
+real data sets to illustrate the performance of our proposed classifier by
+comparing it with existing classifiers."#22 pages, 3 figures#statistics#statistics#methodology
+On Exact Feature Screening in Ultrahigh-dimensional Binary Classification#Sarbojit Roy, Soham Sarkar, Subhajit Dutta, Anil K. Ghosh#"In this article, we propose a new model-free feature screening method based
+on energy distances for ultrahigh-dimensional binary classification problems.
+Unlike existing methods, the cut-off involved in our procedure is data
+adaptive. With a high probability, the screened set retains only features after
+discarding all the noise variables. The proposed screening method is then
+extended to identify pairs of variables that are marginally undetectable, but
+have differences in their joint distributions. Finally, we build a classifier
+which maintains coherence between the proposed feature selection criteria and
+discrimination method, and also establish its risk consistency. An extensive
+numerical study with simulated data sets and real benchmark data sets show
+clear and convincing advantages of our classifier over what currently exists in
+the literature."#Paper: 26 pages, Supplementary: 31 pages#statistics#statistics#methodology
+Order Restricted Inference for Adaptive Progressively Censored Competing Risks Data#Ayon Ganguly, Debanjan Mitra, Debasis Kundu#"Under adaptive progressive Type-II censoring schemes, order restricted
+inference based on competing risks data is discussed in this article. The
+latent failure lifetimes for the competing causes are assumed to follow Weibull
+distributions, with an order restriction on the scale parameters of the
+distributions. The practical implication of this order restriction is that one
+of the risk factors is dominant, as often observed in competing risks
+scenarios. In this setting, likelihood estimation for the model parameters,
+along with bootstrap based techniques for constructing asymptotic confidence
+intervals are presented. Bayesian inferential methods for obtaining point
+estimates and credible intervals for the model parameters are also discussed.
+Through a detailed Monte Carlo simulation study, the performance of order
+restricted inferential methods are assessed. In addition, the results are also
+compared with the case when no order restriction is imposed on the estimation
+approach. The simulation study shows that order restricted inference is more
+efficient between the two, when this additional information is taken into
+consideration. A numerical example is provided for illustrative purpose."#26 pages, 1 figures#statistics#statistics#methodology
+=======
+NeurMiPs: Neural Mixture of Planar Experts for View Synthesis#Zhi-Hao Lin, Wei-Chiu Ma, Hao-Yu Hsu, Yu-Chiang Frank Wang, Shenlong Wang#"We present Neural Mixtures of Planar Experts (NeurMiPs), a novel planar-based
+scene representation for modeling geometry and appearance. NeurMiPs leverages a
+collection of local planar experts in 3D space as the scene representation.
+Each planar expert consists of the parameters of the local rectangular shape
+representing geometry and a neural radiance field modeling the color and
+opacity. We render novel views by calculating ray-plane intersections and
+composite output colors and densities at intersected points to the image.
+NeurMiPs blends the efficiency of explicit mesh rendering and flexibility of
+the neural radiance field. Experiments demonstrate superior performance and
+speed of our proposed method, compared to other 3D representations in novel
+view synthesis."#CVPR 2022. Project page: this https URL#computer science#computing research repository#computer vision and pattern recognition
+HuMMan: Multi-Modal 4D Human Dataset for Versatile Sensing and Modeling#Zhongang Cai, Daxuan Ren, Ailing Zeng, Zhengyu Lin, Tao Yu, Wenjia Wang, Xiangyu Fan, Yang Gao, Yifan Yu, Liang Pan, Fangzhou Hong, Mingyuan Zhang, Chen Change Loy, Lei Yang, Ziwei Liu#"4D human sensing and modeling are fundamental tasks in vision and graphics
+with numerous applications. With the advances of new sensors and algorithms,
+there is an increasing demand for more versatile datasets. In this work, we
+contribute HuMMan, a large-scale multi-modal 4D human dataset with 1000 human
+subjects, 400k sequences and 60M frames. HuMMan has several appealing
+properties: 1) multi-modal data and annotations including color images, point
+clouds, keypoints, SMPL parameters, and textured meshes; 2) popular mobile
+device is included in the sensor suite; 3) a set of 500 actions, designed to
+cover fundamental movements; 4) multiple tasks such as action recognition, pose
+estimation, parametric human recovery, and textured mesh reconstruction are
+supported and evaluated. Extensive experiments on HuMMan voice the need for
+further study on challenges such as fine-grained action recognition, dynamic
+human mesh reconstruction, point cloud-based parametric human recovery, and
+cross-device domain gaps."#Homepage: this https URL#computer science#computing research repository#computer vision and pattern recognition
+Unified Simulation, Perception, and Generation of Human Behavior#Ye Yuan#"Understanding and modeling human behavior is fundamental to almost any
+computer vision and robotics applications that involve humans. In this thesis,
+we take a holistic approach to human behavior modeling and tackle its three
+essential aspects -- simulation, perception, and generation. Throughout the
+thesis, we show how the three aspects are deeply connected and how utilizing
+and improving one aspect can greatly benefit the other aspects. We also discuss
+the lessons learned and our vision for what is next for human behavior
+modeling."#PhD thesis#computer science#computing research repository#computer vision and pattern recognition
+Articulated Objects in Free-form Hand Interaction#Zicong Fan, Omid Taheri, Dimitrios Tzionas, Muhammed Kocabas, Manuel Kaufmann, Michael J. Black, Otmar Hilliges#"We use our hands to interact with and to manipulate objects. Articulated
+objects are especially interesting since they often require the full dexterity
+of human hands to manipulate them. To understand, model, and synthesize such
+interactions, automatic and robust methods that reconstruct hands and
+articulated objects in 3D from a color image are needed. Existing methods for
+estimating 3D hand and object pose from images focus on rigid objects. In part,
+because such methods rely on training data and no dataset of articulated object
+manipulation exists. Consequently, we introduce ARCTIC - the first dataset of
+free-form interactions of hands and articulated objects. ARCTIC has 1.2M images
+paired with accurate 3D meshes for both hands and for objects that move and
+deform over time. The dataset also provides hand-object contact information. To
+show the value of our dataset, we perform two novel tasks on ARCTIC: (1) 3D
+reconstruction of two hands and an articulated object in interaction; (2) an
+estimation of dense hand-object relative distances, which we call interaction
+field estimation. For the first task, we present ArcticNet, a baseline method
+for the task of jointly reconstructing two hands and an articulated object from
+an RGB image. For interaction field estimation, we predict the relative
+distances from each hand vertex to the object surface, and vice versa. We
+introduce InterField, the first method that estimates such distances from a
+single RGB image. We provide qualitative and quantitative experiments for both
+tasks, and provide detailed analysis on the data. Code and data will be
+available at this https URL."##computer science#computing research repository#computer vision and pattern recognition
+Unsupervised Multi-Modal Medical Image Registration via Discriminator-Free Image-to-Image Translation#Zekang Chen, Jia Wei, Rui Li#"In clinical practice, well-aligned multi-modal images, such as Magnetic
+Resonance (MR) and Computed Tomography (CT), together can provide complementary
+information for image-guided therapies. Multi-modal image registration is
+essential for the accurate alignment of these multi-modal images. However, it
+remains a very challenging task due to complicated and unknown spatial
+correspondence between different modalities. In this paper, we propose a novel
+translation-based unsupervised deformable image registration approach to
+convert the multi-modal registration problem to a mono-modal one. Specifically,
+our approach incorporates a discriminator-free translation network to
+facilitate the training of the registration network and a patchwise contrastive
+loss to encourage the translation network to preserve object shapes.
+Furthermore, we propose to replace an adversarial loss, that is widely used in
+previous multi-modal image registration methods, with a pixel loss in order to
+integrate the output of translation into the target modality. This leads to an
+unsupervised method requiring no ground-truth deformation or pairs of aligned
+images for training. We evaluate four variants of our approach on the public
+Learn2Reg 2021 datasets \cite{hering2021learn2reg}. The experimental results
+demonstrate that the proposed architecture achieves state-of-the-art
+performance. Our code is available at this https URL."#Accepted in IJCAI 2022#computer science#computing research repository#computer vision and pattern recognition
+Schrödinger's FP: Dynamic Adaptation of Floating-Point Containers for Deep Learning Training#Miloš Nikolić, Enrique Torres Sanchez, Jiahui Wang, Ali Hadi Zadeh, Mostafa Mahmoud, Ameer Abdelhadi, Andreas Moshovos#"We introduce a software-hardware co-design approach to reduce memory traffic
+and footprint during training with BFloat16 or FP32 boosting energy efficiency
+and execution time performance. We introduce methods to dynamically adjust the
+size and format of the floating-point containers used to store activations and
+weights during training. The different value distributions lead us to different
+approaches for exponents and mantissas. Gecko exploits the favourable exponent
+distribution with a loss-less delta encoding approach to reduce the total
+exponent footprint by up to $58\%$ in comparison to a 32 bit floating point
+baseline. To content with the noisy mantissa distributions, we present two
+lossy methods to eliminate as many as possible least significant bits while not
+affecting accuracy. Quantum Mantissa, is a machine learning-first mantissa
+compression method that taps on training's gradient descent algorithm to also
+learn minimal mantissa bitlengths on a per-layer granularity, and obtain up to
+$92\%$ reduction in total mantissa footprint. Alternatively, BitChop observes
+changes in the loss function during training to adjust mantissa bit-length
+network-wide yielding a reduction of $81\%$ in footprint. Schrödinger's FP
+implements hardware encoders/decoders that guided by Gecko/Quantum Mantissa or
+Gecko/BitChop transparently encode/decode values when transferring to/from
+off-chip memory boosting energy efficiency and reducing execution time."##computer science#computing research repository#machine learning
+Toward Compositional Generalization in Object-Oriented World Modeling#Linfeng Zhao, Lingzhi Kong, Robin Walters, Lawson L.S. Wong#"Compositional generalization is a critical ability in learning and
+decision-making. We focus on the setting of reinforcement learning in
+object-oriented environments to study compositional generalization in world
+modeling. We (1) formalize the compositional generalization problem with an
+algebraic approach and (2) study how a world model can achieve that. We
+introduce a conceptual environment, Object Library, and two instances, and
+deploy a principled pipeline to measure the generalization ability. Motivated
+by the formulation, we analyze several methods with exact} or no compositional
+generalization ability using our framework, and design a differentiable
+approach, Homomorphic Object-oriented World Model (HOWM), that achieves
+approximate but more efficient compositional generalization."##computer science#computing research repository#machine learning
+Unlocking High-Accuracy Differentially Private Image Classification through Scale#Soham De, Leonard Berrada, Jamie Hayes, Samuel L. Smith, Borja Balle#"Differential Privacy (DP) provides a formal privacy guarantee preventing
+adversaries with access to a machine learning model from extracting information
+about individual training points. Differentially Private Stochastic Gradient
+Descent (DP-SGD), the most popular DP training method, realizes this protection
+by injecting noise during training. However previous works have found that
+DP-SGD often leads to a significant degradation in performance on standard
+image classification benchmarks. Furthermore, some authors have postulated that
+DP-SGD inherently performs poorly on large models, since the norm of the noise
+required to preserve privacy is proportional to the model dimension. In
+contrast, we demonstrate that DP-SGD on over-parameterized models can perform
+significantly better than previously thought. Combining careful hyper-parameter
+tuning with simple techniques to ensure signal propagation and improve the
+convergence rate, we obtain a new SOTA on CIFAR-10 of 81.4% under (8,
+10^{-5})-DP using a 40-layer Wide-ResNet, improving over the previous SOTA of
+71.7%. When fine-tuning a pre-trained 200-layer Normalizer-Free ResNet, we
+achieve a remarkable 77.1% top-1 accuracy on ImageNet under (1, 8*10^{-7})-DP,
+and achieve 81.1% under (8, 8*10^{-7})-DP. This markedly exceeds the previous
+SOTA of 47.9% under a larger privacy budget of (10, 10^{-6})-DP. We believe our
+results are a significant step towards closing the accuracy gap between private
+and non-private image classification."##computer science#computing research repository#machine learning
+Standardized Evaluation of Machine Learning Methods for Evolving Data Streams#Johannes Haug, Effi Tramountani, Gjergji Kasneci#"Due to the unspecified and dynamic nature of data streams, online machine
+learning requires powerful and flexible solutions. However, evaluating online
+machine learning methods under realistic conditions is difficult. Existing work
+therefore often draws on different heuristics and simulations that do not
+necessarily produce meaningful and reliable results. Indeed, in the absence of
+common evaluation standards, it often remains unclear how online learning
+methods will perform in practice or in comparison to similar work. In this
+paper, we propose a comprehensive set of properties for high-quality machine
+learning in evolving data streams. In particular, we discuss sensible
+performance measures and evaluation strategies for online predictive modelling,
+online feature selection and concept drift detection. As one of the first
+works, we also look at the interpretability of online learning methods. The
+proposed evaluation standards are provided in a new Python framework called
+float. Float is completely modular and allows the simultaneous integration of
+common libraries, such as scikit-multiflow or river, with custom code. Float is
+open-sourced and can be accessed at this https URL. In this
+sense, we hope that our work will contribute to more standardized, reliable and
+realistic testing and comparison of online machine learning methods."##computer science#computing research repository#machine learning
+Personalized Federated Learning with Multiple Known Clusters#Boxiang Lyu, Filip Hanzely, Mladen Kolar#"We consider the problem of personalized federated learning when there are
+known cluster structures within users. An intuitive approach would be to
+regularize the parameters so that users in the same cluster share similar model
+weights. The distances between the clusters can then be regularized to reflect
+the similarity between different clusters of users. We develop an algorithm
+that allows each cluster to communicate independently and derive the
+convergence results. We study a hierarchical linear model to theoretically
+demonstrate that our approach outperforms agents learning independently and
+agents learning a single shared weight. Finally, we demonstrate the advantages
+of our approach using both simulated and real-world data."##computer science#computing research repository#machine learning
+Single G centers in silicon fabricated by co-implantation with carbon and proton#Yoann Baron, Alrik Durand, Tobias Herzig, Mario Khoury, Sébastien Pezzagna, Jan Meijer, Isabelle Robert-Philip, Marco Abbarchi, Jean-Michel Hartmann, Shay Reboh, Jean-Michel Gérard, Vincent Jacques, Guillaume Cassabois, Anaïs Dréau#"We report the fabrication of G centers in silicon with an areal density
+compatible with single photon emission at optical telecommunication
+wavelengths. Our sample is made from a silicon-on-insulator wafer which is
+locally implanted with carbon ions and protons at various fluences. Decreasing
+the implantation fluences enables to gradually switch from large ensembles to
+isolated single defects, reaching areal densities of G centers down to
+$\sim$0.2 $\mu$m$^{-2}$. Single defect creation is demonstrated by photon
+antibunching in intensity-correlation experiments, thus establishing our
+approach as a reproducible procedure for generating single artificial atoms in
+silicon for quantum technologies."##physics#physics#applied physics
+Practical Analysis of Permeable Concrete Properties with Polypropylene Fiber Addition#Rebeca de M. Kich, Victor A. Kich, Kelvin I. Seibt#"One of the recent approaches used to minimize the impacts of the growth of
+impermeable areas in urban centers is permeable flooring. Permeable floors can
+be made of concrete and are called permeable concrete. This research aims to
+analyze the use of polypropylene fibers in the mixture of permeable concrete to
+assess whether the fibers significantly alter the properties of this type of
+concrete, such as compression resistance and flexure tensile strength. For the
+tests, three concrete mixes of permeable concrete were first used to determine
+the reference of the composition of concrete: 1:3, without the use of sand and
+with water-to-cement ratio (w/c) equal to 0.32; 1:4, with the use of 10\% of
+coarse sand and w/c of 0.35; and finally 1:5, with the use of 10\% of coarse
+sand and w/c of 0.35; and finally 1:5, using 10\% of coarse sand and w/c of
+0.35. In these concrete mixes, tests were performed to determine their
+mechanical properties being them: permeability, compression resistance, and
+flexure tensile strength. After the reference concrete mix was determined,
+three more concrete mixes were made using polypropylene fibers, at levels of
+0.6 kg/m$^3$, 1.8 kg/m$^3$, and 3.0 kg/m$^3$. The same initial tests were then
+carried out for concrete with the addition of fibers. The analysis of the
+results showed that the concrete mix that achieved the best result for the
+flexure tensile strength test, which was the main focus of the research, was
+the 1:4 trait with the addition of 1.8 kg/m$^3$."##physics#physics#applied physics
+Random number generation with a chaotic electromechanical resonator#Guilhem Madiot, Franck Correia, Sylvain Barbay, Rémy Braive#"Chaos enables the emergence of randomness in deterministic physical systems.
+Therefore it can be exploited for the conception of true random number
+generators (RNG) mandatory in classical cryptography applications. Meanwhile,
+nanomechanical oscillators, at the core of many on-board functionalities such
+as sensing, reveal as excellent candidates to behave chaotically. This is made
+possible thanks to intrinsic mechanical nonlinearities emerging at the
+nanoscale. Here we present a platform gathering a nanomechanical oscillator and
+its integrated capacitive actuation. Using a modulation of the resonant force
+induced by the electrodes, we demonstrate chaotic dynamics and study how it
+depends on the dissipation of the system. The randomness of a binary sequence
+generated from a chaotic time trace is evaluated and discussed such that the
+generic parameters enabling successful random number generation can be
+established. This demonstration makes use of concepts which are sufficiently
+general to be applied to the next generation of nano-electro-optomechanical
+systems."#8 pages, 5 figures#physics#physics#applied physics
+Machine learning for knowledge acquisition and accelerated inverse-design for non-Hermitian systems#W. W. Ahmed, M. Farhat, K. Staliunas, X. Zhang, Y. Wu#"Non-Hermitian systems offer new platforms for unusual physical properties
+that can be flexibly manipulated by redistribution of the real and imaginary
+parts of refractive indices, whose presence breaks conventional wave
+propagation symmetries, leading to asymmetric reflection and symmetric
+transmission with respect to the wave propagation direction. Here, we use
+supervised and unsupervised learning techniques for knowledge acquisition in
+non-Hermitian systems which accelerate the inverse design process. In
+particular, we construct a deep learning model that relates the transmission
+and asymmetric reflection in non-conservative settings and proposes
+sub-manifold learning to recognize non-Hermitian features from transmission
+spectra. The developed deep learning framework determines the feasibility of a
+desired spectral response for a given structure and uncovers the role of
+effective gain-loss parameters to tailor the spectral response. These findings
+pave the way for intelligent inverse design and shape our understanding of the
+physical mechanism in general non-Hermitian systems."##physics#physics#applied physics
+Interplay of the disorder and strain in gallium oxide#Alexander Azarov, Vishnukanthan Venkatachalapathy, Platon Karaseov, Andrei Titov, Konstantin Karabeshkin, Andrei Struchkov, Andrej Kuznetsov#"We observed an interesting interplay between the disorder and strain in
+gallium oxide by comparing atomic and cluster ion irradiations as well as
+atomic ions co-implants. Firstly, we demonstrated that the disorder
+accumulation in gallium oxide exhibits superlinear behavior as a function of
+the collision cascade density. Moreover, the level of strain correlated with
+the amplitude of the bulk disorder peak can be engineered by changing the
+disorder conditions in the near surface layer. Such interplay between the
+disorder and strain provides an additional degree of freedom to maintain
+desirable strain in gallium oxide, potentially applicable to modify the rate of
+the polymorphic transitions in this material."##physics#physics#applied physics
+The minimal Archimedean order unitization of seminormed ordered vector spaces#Josse van Dobben de Bruyn#"Archimedean order unit (AOU) spaces have many favourable properties, so it is
+useful to have ways of turning a general ordered vector space into an AOU
+space. One such construction is given by the Archimedeanization of Paulsen and
+Tomforde, provided that the original space already has order units. In this
+paper, we give a different construction, which assumes the presence of a
+seminorm instead of an order unit. We show that our order unitization is
+minimal, by showing that it satisfies a universal property similar to that of
+the Archimedeanization of Paulsen and Tomforde. Additionally, we study the
+properties of our unitization, and show that it agrees on the self-adjoint part
+of a non-unital $C^*$-algebra with the $C^*$-algebraic unitization."#15 pages#mathematics#mathematics#functional analysis
+Spectral measures with arbitrary dimensions#Zhi-Yi Wu, Yu-Liang Wu#"It is known [Dai and Sun, J. Funct. Anal. 268 (2015), 2464--2477] that there
+exist spectral measures with arbitrary Hausdorff dimensions, and it is natural
+to pose the question of whether similar phenomena occur for other dimensions of
+spectral measures. In this paper, we first obtain the formulae of Assouad
+dimension and of lower dimension for a class of Moran measures in dimension one
+that is introduced by An and He [J. Funct. Anal. 266 (2014), 343--354]. Based
+on these results, we show the existence of spectral measures with arbitrary
+Assound dimensions $\dim_A$ and lower dimensions $\dim_L$ ranging from $0$ to
+$1$, including non-atomic zero-dimensional spectral measures and
+one-dimensional singular spectral measures, and prove that the two values may
+coincide. In fact, more is obtained that for any $0 \leq t \leq s \leq r \leq
+u\leq 1$, there exists a spectral measure $\mu$ such that \[\dim_L \mu=t,
+\dim_H \mu=s, \dim_P\mu=r~ \text{and} \dim_A\mu=u,\] where $\dim_H$ and
+$\dim_P$ denote the Hausdorff dimension and packing dimension of the measure
+$\mu$, respectively. This result improves and generalizes the result of Dai and
+Sun more simply and flexibly."##mathematics#mathematics#functional analysis
+Frequently recurrence properties and block families#Rodrigo Cardeccia, Santiago Muro#"We study recurrence and the related (weaker form of recurrence) $\mathscr
+P_\mathcal F$ property for linear operators on Banach spaces and for general
+hereditarily upward families. We show that for special families, called block
+families, hypercyclic operators with the $\mathscr P_\mathcal F$ are $\mathcal
+F$-hypercyclic. Reciprocally, if $b\mathcal F$ is the block family of a given
+family $\mathcal F$, adjoint operators that are $b\mathcal F$-hypercyclic have
+the $\mathscr P_\mathcal F$ property. As a consequence, we are able to answer
+an open question about the existence of reiteratively hypercyclic operators. We
+also characterize backward shift operators with the $\mathscr P_\mathcal F$
+property."##mathematics#mathematics#functional analysis
+Transfinite almost square Banach spaces#Antonio Avilés, Stefano Ciaci, Johann Langemets, Aleksei Lissitsin, Abraham Rueda Zoca#"It is known that a Banach space contains an isomorphic copy of $c_0$ if, and
+only if, it can be equivalently renormed to be almost square. We introduce and
+study transfinite versions of almost square Banach spaces with the purpose to
+relate them to the containment of isomorphic copies of $c_0(\kappa)$, where
+$\kappa$ is some uncountable cardinal. We also provide several examples and
+stability results of the above properties by taking direct sums, tensor
+products and ultraproducts. By connecting the above properties with transfinite
+analogues of the strong diameter two property and octahedral norms, we obtain a
+solution to an open question from [8]."#23 Pages#mathematics#mathematics#functional analysis
+A continuous-parameter Katznelson-Tzafriri theorem for analytic Besov functions#Charles Batty, David Seifert#"We prove a continuous-parameter version of the recent theorem of
+Katznelson-Tzafiri type for power-bounded operators which have a bounded
+calculus for analytic Besov functions."##mathematics#mathematics#functional analysis
+>>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8

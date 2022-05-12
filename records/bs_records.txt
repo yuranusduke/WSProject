@@ -1,0 +1,368 @@
+<<<<<<< HEAD
+
+********************2022-04-27 10:05:48.541949********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <BS.config.Config object at 0x7fd24036aa90>>
+set_kwargs...<bound method Config.set_kwargs of <BS.config.Config object at 0x7fd24036aa90>>
+**************************************************
+Elapsed time : 633.4528410434723s.
+
+********************2022-04-27 20:47:11.396535********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...30
+analyse...True
+scrape_each_author...True
+crawl...False
+print_kwargs...<bound method Config.print_kwargs of <BS.config.Config object at 0x7f7874c6aa90>>
+set_kwargs...<bound method Config.set_kwargs of <BS.config.Config object at 0x7f7874c6aa90>>
+**************************************************
+Elapsed time : 17.130890130996704s.
+
+********************2022-05-01 08:23:08.213295********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <BS.config.Config object at 0x7fb012162a90>>
+set_kwargs...<bound method Config.set_kwargs of <BS.config.Config object at 0x7fb012162a90>>
+**************************************************
+Elapsed time : 622.563188791275s.
+
+********************2022-05-01 08:41:30.321767********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <BS.config.Config object at 0x7f8392c6aa90>>
+set_kwargs...<bound method Config.set_kwargs of <BS.config.Config object at 0x7f8392c6aa90>>
+**************************************************
+Elapsed time : 140.67758893966675s.
+
+********************2022-05-01 10:27:10.514894********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...100
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <BS.config.Config object at 0x7fc9a4162a90>>
+set_kwargs...<bound method Config.set_kwargs of <BS.config.Config object at 0x7fc9a4162a90>>
+**************************************************
+Elapsed time : 694.1628000736237s.
+
+********************2022-05-01 14:59:52.550296********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...15
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <BS.config.Config object at 0x7ff6b8962a90>>
+set_kwargs...<bound method Config.set_kwargs of <BS.config.Config object at 0x7ff6b8962a90>>
+**************************************************
+Elapsed time : 118.65498542785645s.
+
+********************2022-05-01 15:29:41.090492********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...15
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fbb6cc6aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fbb6cc6aa90>>
+**************************************************
+Elapsed time : 96.97839093208313s.
+
+********************2022-05-01 15:33:46.136810********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...15
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f88feb6aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f88feb6aa90>>
+**************************************************
+Elapsed time : 60.7518892288208s.
+
+********************2022-05-01 15:41:42.698346********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...15
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f9a95162a90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f9a95162a90>>
+**************************************************
+Elapsed time : 55.954127073287964s.
+
+********************2022-05-01 15:52:42.697526********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...15
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fb854162a90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fb854162a90>>
+**************************************************
+Elapsed time : 99.33214592933655s.
+
+********************2022-05-01 15:56:53.310240********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...25
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fbb5326aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fbb5326aa90>>
+**************************************************
+Elapsed time : 154.7001531124115s.
+
+********************2022-05-01 16:00:57.014673********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fec3b26aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fec3b26aa90>>
+**************************************************
+Elapsed time : 333.3433532714844s.
+
+********************2022-05-01 16:46:56.585361********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...70
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fe6d1a6aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fe6d1a6aac0>>
+**************************************************
+Elapsed time : 172.41920018196106s.
+
+********************2022-05-01 17:17:39.726643********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fc9f0a6aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fc9f0a6aac0>>
+**************************************************
+Elapsed time : 260.6923110485077s.
+
+********************2022-05-01 17:36:59.573317********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f9b9e46aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f9b9e46aac0>>
+**************************************************
+Elapsed time : 172.03677606582642s.
+
+********************2022-05-01 18:18:46.475371********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...26
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fa9a626aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fa9a626aac0>>
+**************************************************
+Elapsed time : 165.8201389312744s.
+
+********************2022-05-01 18:22:08.918971********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...31
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f7a84162ac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f7a84162ac0>>
+**************************************************
+Elapsed time : 202.47926807403564s.
+
+********************2022-05-01 18:31:17.433597********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f7db3962ac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f7db3962ac0>>
+**************************************************
+Elapsed time : 45.20643877983093s.
+
+********************2022-05-01 18:50:00.380846********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...34
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fe513a6aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fe513a6aac0>>
+**************************************************
+Elapsed time : 208.4715371131897s.
+
+********************2022-05-01 18:56:14.029241********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...34
+page_limit...True
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fafdf46aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fafdf46aac0>>
+**************************************************
+Elapsed time : 175.73126482963562s.
+
+********************2022-05-01 20:12:44.097512********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fe26b26aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fe26b26aac0>>
+**************************************************
+Elapsed time : 138.18692231178284s.
+
+********************2022-05-01 20:48:46.771750********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f9f9746aac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f9f9746aac0>>
+**************************************************
+Elapsed time : 78.05081915855408s.
+
+********************2022-05-02 12:10:46.563375********************
+subject...['Computer Science', 'Physics', 'Mathematics']
+ssubject...['Computing Research Repository', 'Physics', 'Mathematics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'functional analysis']
+limit...20
+page_limit...False
+analyse...True
+scrape_each_author...False
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fc842962ac0>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fc842962ac0>>
+**************************************************
+Elapsed time : 123.42251896858215s.
+
+********************2022-05-02 17:11:37.273329********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'Methodology']
+limit...5
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7f8a0a46aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7f8a0a46aa90>>
+**************************************************
+Elapsed time : 58.344358921051025s.
+
+********************2022-05-02 17:16:44.509159********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'Methodology']
+limit...30
+page_limit...False
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fc5d136aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fc5d136aa90>>
+**************************************************
+Elapsed time : 238.77412295341492s.
+
+********************2022-05-02 18:39:41.424150********************
+subject...['Computer Science', 'Physics', 'Statistics']
+ssubject...['Computing Research Repository', 'Physics', 'Statistics']
+sssubject...['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics', 'Methodology']
+limit...30
+page_limit...True
+analyse...True
+scrape_each_author...True
+crawl...True
+print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object at 0x7fc97346aa90>>
+set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fc97346aa90>>
+**************************************************
+Elapsed time : 176.68455815315247s.
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:309e218c9d5f5bfe31648def8bdce4fa1cdce52520108e75122be6df67c0e6f5
+size 14870
+>>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
