@@ -130,6 +130,6 @@ def request_url(df,driver, url, limit,subject,ssubject,sssubject, page_limit):
             return df
         driver.back()
         limit -= 1
-        if limit <= 0:
+        if limit <= 0 and not page_limit:
             break
     return df
