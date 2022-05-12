@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 ********************2022-04-27 10:05:48.541949********************
 subject...['Computer Science', 'Physics', 'Mathematics']
@@ -361,8 +360,3 @@ print_kwargs...<bound method Config.print_kwargs of <soup.config.Config object a
 set_kwargs...<bound method Config.set_kwargs of <soup.config.Config object at 0x7fc97346aa90>>
 **************************************************
 Elapsed time : 176.68455815315247s.
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:309e218c9d5f5bfe31648def8bdce4fa1cdce52520108e75122be6df67c0e6f5
-size 14870
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8

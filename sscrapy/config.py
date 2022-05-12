@@ -20,19 +20,11 @@ class Config(object):
     """
     subject = ['Computer Science', 'Physics', 'Mathematics']
     ssubject = ['Computing Research Repository', 'Physics', 'Mathematics']
-<<<<<<< HEAD
     sssubject = ['Computer Vision and Pattern Recognition', 'Applied Physics',
                  ]
     limit = 26
     page_limit = True
     analyse = False
-=======
-    sssubject = ['Computer Vision and Pattern Recognition', 'Machine Learning', 'Applied Physics',
-                 'functional analysis']
-    limit = 5
-    page_limit = True
-    analyse = True
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
     scrape_each_author = False
     crawl = True
 

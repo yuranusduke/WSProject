@@ -5,18 +5,12 @@ Main function for soup
 Created By Kunhong Yu(444447)
 Date: 2022/04/26
 """
-<<<<<<< HEAD
 import sys
 sys.path.append('../')
 from soup.crawl import crawl_all
 from processing.process import procedure
 
 
-=======
-from soup.crawl import crawl_all
-from processing.process import procedure
-
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 def mainBS(opt):
     # main function
 
@@ -43,7 +37,6 @@ def mainBS(opt):
             procedure(mode = 'soup', for_author = False)
         print('*' * 50)
 
-<<<<<<< HEAD
     print('*' * 50)
 
 
@@ -54,6 +47,3 @@ if __name__ == '__main__':
     opt_bs = BConfig()
     opt_bs.analyse = False
     mainBS(opt_bs)
-=======
-    print('*' * 50)
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8

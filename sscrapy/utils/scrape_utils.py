@@ -74,13 +74,8 @@ class MainPageScraper(object):
     Copied from soup subproject
     """
     def __init__(self):
-<<<<<<< HEAD
         self.base_url = 'https://arxiv.org/'
         #self.base_url = 'http://xxx.itp.ac.cn/'
-=======
-        #self.base_url = 'https://arxiv.org/'
-        self.base_url = 'http://xxx.itp.ac.cn/'
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
     def scrape_main_page(self):
         """This function is used to scrape main(first) page of the
@@ -169,13 +164,8 @@ class PaperSpider(scrapy.Spider):
         """
         super(PaperSpider, self).__init__()
         self.start_urls = [start_url]
-<<<<<<< HEAD
         self.base_url = 'https://arxiv.org'
         #self.base_url = 'http://xxx.itp.ac.cn'
-=======
-        #self.base_url = 'https://arxiv.org'
-        self.base_url = 'http://xxx.itp.ac.cn'
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
         self.allowed_domains = [start_url.lstrip(self.base_url)]
         self.limit = limit
         self.count = 0

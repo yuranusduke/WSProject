@@ -72,14 +72,10 @@ def crawl_all(subject = 'Computer Science',
         if flag:
             break
 
-<<<<<<< HEAD
     try:
         df.to_csv('./soup/data/allinfo.csv', index = False, sep = '#')
     except:
         df.to_csv('./data/allinfo.csv', index = False, sep = '#')
-=======
-    df.to_csv('./soup/data/allinfo.csv', index = False, sep = '#')
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
     print("\033[0;36;40mScraping papers's information is done, saved in /data/allinfo.csv!\033[0m\n")
 
     # 2. Then we need to go deeper with each author if necessary
@@ -88,14 +84,10 @@ def crawl_all(subject = 'Computer Science',
         df = pd.DataFrame({'name': [], 'title': [], 'abstract': []})
         authorscraper = AuthorsScraper(all_author_links, page_limit = page_limit)
         df = authorscraper.scrape(df)
-<<<<<<< HEAD
         try:
             df.to_csv('./soup/data/allauthorsinfo.csv', index = False, sep = '#')
         except:
             df.to_csv('./data/allauthorsinfo.csv', index = False, sep = '#')
-=======
-        df.to_csv('./soup/data/allauthorsinfo.csv', index = False, sep = '#')
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 
 
 # unit test

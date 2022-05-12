@@ -4,17 +4,10 @@
 Created by Kunhong Yu(444447)
 Date: 2022/03/24
 """
-<<<<<<< HEAD
 from urllib.error import HTTPError, URLError
 from bs4 import BeautifulSoup
 import requests
 from urllib.request import urlopen
-=======
-from urllib.request import urlopen
-from urllib.error import HTTPError, URLError
-from bs4 import BeautifulSoup
-import requests
->>>>>>> e7b8b23db5988ddd218b6275de838a3c7e89c2f8
 headers = requests.utils.default_headers()
 # to avoid blocked
 headers.update({
