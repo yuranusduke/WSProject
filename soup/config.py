@@ -22,7 +22,7 @@ class Config(object):
     sssubject = ['Computer Vision and Pattern Recognition', 'Applied Physics',
                  ]
     limit = 26
-    page_limit = False
+    page_limit = True
     analyse = False
     scrape_each_author = True
     crawl = True
