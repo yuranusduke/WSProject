@@ -20,7 +20,7 @@ class Config(object):
                  'functional analysis']
     page_limit = True
     limit = 120
-    analyse = True
+    analyse = False
     crawl = True
 
     def print_kwargs(self):
