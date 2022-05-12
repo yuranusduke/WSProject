@@ -25,7 +25,7 @@ class Config(object):
     limit = 26
     page_limit = True
     analyse = False
-    scrape_each_author = False
+    scrape_each_author = True
     crawl = True
 
     def print_kwargs(self):
