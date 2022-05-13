@@ -15,5 +15,5 @@ python main.py main \
 --limit=30 \
 --scrape_each_author=True \
 --crawl=True \
---analyse=True \
+--analyse=False \
 --page_limit=True
