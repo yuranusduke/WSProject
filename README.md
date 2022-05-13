@@ -230,5 +230,5 @@ According to project requirements, we must can run scrapy using `scrapy ...` com
 In this project, we use three tools we grasped during lecture: BeautifulSoup, Scrapy and Selenium to scrape famous academic papers hosting platform: *ArXiv* to obtain each paper's information and each author's papers, finally we use scraped data to make visualization via simple NLP and PCA techniques and understand what's going on in the data. In the implementations, we've done quite a lot work to make every scrape correct.
 
 
-<center>***Veni，vidi，vici --Caesar***</center>
+***<center>Veni，vidi，vici --Caesar</center>***
 
