@@ -177,6 +177,12 @@ Finally, running time of each of scrapers will be recorded as stated above, and 
 
 As we see preprocessing each paper is printed, and final running time is obtained as well. If `scrape_each_author` in `soup` and `sscrapy` is True, then we will see data analyses process be running twice, one for papers of all subsubsubjects and the other is for all papers for each of authors.
 
+As for selenium, due to the nature of tool, the result is slightly different than BS and Scrapy, but the logic is the same. Here are what scraped results look like:
+
+![em](./README/ss1.png)
+![em](./README/ss2.png)
+
+
 #### BS and Selenium running in `soup`/`sselenium` folder
 
 In order to run files in `soup` or in `sselenium` respectively, enter the corresponding folder and type
@@ -224,5 +230,5 @@ According to project requirements, we must can run scrapy using `scrapy ...` com
 In this project, we use three tools we grasped during lecture: BeautifulSoup, Scrapy and Selenium to scrape famous academic papers hosting platform: *ArXiv* to obtain each paper's information and each author's papers, finally we use scraped data to make visualization via simple NLP and PCA techniques and understand what's going on in the data. In the implementations, we've done quite a lot work to make every scrape correct.
 
 
-***<center>Veni，vidi，vici --Caesar</center>***
+<center>***Veni，vidi，vici --Caesar***</center>
 
